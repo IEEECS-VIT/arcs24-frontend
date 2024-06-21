@@ -26,8 +26,8 @@ make sure to install these for your OS if not already!
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/IEEECS/arcs24-frontend
-   cd react-vite-app-template
+   git clone https://github.com/IEEECS-VIT/arcs24-frontend/
+   cd arcs24-frontend
    ```
 
 2. **Install dependencies:**
