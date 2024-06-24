@@ -1,7 +1,7 @@
 import React from "react";
-
+import Yooho from "./Yooho";
 function App() {
-  return <main></main>;
+  return <Yooho />;
 }
 
 export default App;
