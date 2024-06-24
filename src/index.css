@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap");
+
 @font-face {
   font-family: "Rugen";
   src: url("src/fonts/RugenExpanded.ttf") format("truetype");
@@ -10,10 +11,11 @@
 
 .animated-gradient {
   width: 100%; 
-  height: 100px; 
+  height: 100vh; 
   background: linear-gradient(to left, #0a0f3f, #17062b); 
   background-size: 200% 100%;
-  
+  animation: gradient 15s ease infinite;
+  position: relative; /* Ensure that text overlay is positioned relative to this container */
 }
 
 @keyframes gradient {
@@ -25,5 +27,33 @@
   }
   100% {
     background-position: 0% 50%;
+  }
+}
+
+.text-overlay {
+  position: absolute;
+  top: 0; /* Start from top of the image */
+  left: 0; /* Start from left of the image */
+  color: white;
+  font-size: 3.5rem;
+  font-family: "Rugen";
+  display: flex; /* Use flexbox */
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.text-overlay span {
+  background-color: #01061B; /* Example background color for spans */
+}
+
+@media (max-width: 768px) {
+  .text-overlay {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .text-overlay {
+    font-size: 1.5rem; /* Further adjust font size for very small screens */
   }
 }
