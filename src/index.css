@@ -35,25 +35,13 @@
   top: 0; /* Start from top of the image */
   left: 0; /* Start from left of the image */
   color: white;
-  font-size: 3.5rem;
   font-family: "Rugen";
   display: flex; /* Use flexbox */
   flex-wrap: wrap;
   flex-direction: column;
+  font-size: var(--font-size);
 }
 
 .text-overlay span {
   background-color: #01061B; /* Example background color for spans */
-}
-
-@media (max-width: 768px) {
-  .text-overlay {
-    font-size: 2rem; /* Adjust font size for smaller screens */
-  }
-}
-
-@media (max-width: 480px) {
-  .text-overlay {
-    font-size: 1.5rem; /* Further adjust font size for very small screens */
-  }
 }
