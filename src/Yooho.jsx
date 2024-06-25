@@ -9,27 +9,25 @@ function Yooho() {
         function adjustFontSize() {
             if (imgRef.current) {
                 const height = imgRef.current.clientHeight;
-                const fontSize = height * 0.112; // 5% of the image's height
+                const fontSize = height * 0.112; 
                 containerRef.current.style.setProperty('--font-size', `${fontSize}px`);
+                console.log(fontSize)
             }
         }
 
-        // Adjust the font size initially
         adjustFontSize();
-
-        // Adjust the font size whenever the window is resized
         window.addEventListener('resize', adjustFontSize);
 
-        // Cleanup the event listener on component unmount
         return () => window.removeEventListener('resize', adjustFontSize);
     }, []);
 
     return (
-        <div className="flex items-center justify-center min-h-screen animated-gradient">
-            <div className="relative" ref={containerRef}>
-                <img className="max-w-full h-auto" ref={imgRef} src="/yoho.png" alt="Yoho" />
+        <div className="flex items-center justify-center min-h-screen relative">
+            <div className="animated-gradient"></div>
+            <div className="image-container" ref={containerRef}>
+                <img className="index max-w-full h-auto" ref={imgRef} src="/yoho.png" alt="Yoho" />
                 <div className="text-overlay">
-                    <span >TWO</span>
+                    <span>TWO</span>
                     <span>CREATIVE</span>
                     <span>EVENTS FOR THE</span>
                     <span>NEXT</span>
