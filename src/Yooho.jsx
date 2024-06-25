@@ -11,7 +11,6 @@ function Yooho() {
                 const height = imgRef.current.clientHeight;
                 const fontSize = height * 0.112; 
                 containerRef.current.style.setProperty('--font-size', `${fontSize}px`);
-                console.log(fontSize)
             }
         }
 
