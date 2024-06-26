@@ -1,7 +1,13 @@
-import React from "react";
-import Yooho from "./Yooho";
+import Yooho from "./Components/Yooho";
+import LandingPage from "./Components/LandingPage";
+
 function App() {
-  return <Yooho />;
+  return (
+    <main>
+      <LandingPage />
+      <Yooho />
+    </main>
+  );
 }
 
 export default App;
