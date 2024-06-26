@@ -13,7 +13,7 @@ export default {
       colors: {
         "bright-pink": "#B31AD6",
         "dull-pink": "#8E4497",
-        blurple: "#9F9DFF",
+        "blurple": "#9F9DFF",
         background: "#01061B",
       },
     },
