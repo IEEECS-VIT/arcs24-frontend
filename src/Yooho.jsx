@@ -1,37 +1,19 @@
-import React, { useEffect, useRef } from "react";
-import "./index.css";
+import React from "react";
+import "./index.css"; 
 
 function Yooho() {
-    const imgRef = useRef(null);
-    const containerRef = useRef(null);
-
-    useEffect(() => {
-        function adjustFontSize() {
-            if (imgRef.current) {
-                const height = imgRef.current.clientHeight;
-                const fontSize = height * 0.112; 
-                containerRef.current.style.setProperty('--font-size', `${fontSize}px`);
-            }
-        }
-
-        adjustFontSize();
-        window.addEventListener('resize', adjustFontSize);
-
-        return () => window.removeEventListener('resize', adjustFontSize);
-    }, []);
-
     return (
         <div className="flex items-center justify-center min-h-screen relative">
-            <div className="animated-gradient"></div>
-            <div className="image-container" ref={containerRef}>
-                <img className="index max-w-full h-auto" ref={imgRef} src="/yoho.png" alt="Yoho" />
-                <div className="text-overlay">
-                    <span>TWO</span>
-                    <span>CREATIVE</span>
-                    <span>EVENTS FOR THE</span>
-                    <span>NEXT</span>
-                    <span>WAVE OF</span>
-                    <span>LOCAL TALENT</span>
+            <div className="animated-gradient w-full h-screen absolute top-0 left-0"></div>
+            <div className="relative">
+                <img className="w-[90vw] h-[78vh]" src="/yoho.png" alt="Yoho" />
+                <div className="text-overlay absolute text-white font-rugen top-0 left-0 flex flex-wrap flex-col box-border">
+                    <span className="sm:text-[8vh] md:text-[8vh] lg:text-[8.67vh] self-start relative mr-0">TWO</span>
+                    <span className="sm:text-[8vh] md:text-[8vh] lg:text-[8.67vh] self-start relative mr-0">CREATIVE</span>
+                    <span className="sm:text-[8vh] md:text-[8vh] lg:text-[8.67vh] self-start relative mr-0">EVENTS FOR THE</span>
+                    <span className="sm:text-[8vh] md:text-[8vh] lg:text-[8.67vh] self-start relative mr-0">NEXT</span>
+                    <span className="sm:text-[8vh] md:text-[8vh] lg:text-[8.67vh] self-start relative mr-0">WAVE OF</span>
+                    <span className="sm:text-[8vh] md:text-[8vh] lg:text-[8.67vh] self-start relative mr-0">LOCAL TALENT</span>
                 </div>
             </div>
         </div>
