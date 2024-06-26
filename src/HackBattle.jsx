@@ -2,14 +2,14 @@ import React from "react";
 
 function HackBattle(){
     return(
-        <div className="relative bg-[#01061B] h-screen overflow-hidden bottom-[20px]">
+        <div className="relative bg-[#01061B] h-screen overflow-hidden bottom-[2vh]">
             <h1 className="relative text-white text-center mt-16 font-rugen text-5xl">HACKBATTLE</h1>
             <img className="w-4/12 absolute  left-10 bottom-64 z-10" src="public/Ellipse 3.svg" />
             <img className="w-3/12 absolute right-52 top-52 z-10" src="public/Ellipse 4.svg" />
-            <div className="relative flex text-center pr-12 pl-12 justify-center bottom-20">
-                <img className="w-2/3 h-[650px] z-20"src="public/Hack.svg" />
+            <div className="relative flex text-center pr-12 pl-12 justify-center bottom-20 flex-wrap">
+                <img className="w-2/3 h-2/5 mt-28 z-20 mb-24"src="public/Hack.svg" />
             </div>
-            <p className="relative text-[#B5B1B1] font-source-serif left-[320px] mt-4 bottom-[190px]">CODE<span className="ml-[720px]">COMPETE</span><span className="ml-[150px]">SUCCEED</span></p>
+            <p className="relative text-[#B5B1B1] font-source-serif left-[19vw] mt-4 bottom-48">CODE<span className="ml-[42vw]">COMPETE</span><span className="ml-[8vw]">SUCCEED</span></p>
             <div className="pl-80 pr-80 relative text-center bottom-44">
                 <p className="relative text-[#848484] font-source-serif">AGENDA</p>
                 <p className="relative mt-4 text-[#B5B1B1] font-source-serif text-2xl">Dive into <span className="text-[#F7F6F3]">HackBattle</span>,
