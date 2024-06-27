@@ -1,7 +1,12 @@
 import React from "react";
+import WhatIsArcs from "./whatisarcs";
 
 function App() {
-  return <main></main>;
+  return <main>
+<WhatIsArcs></WhatIsArcs>
+
+
+  </main>;
 }
 
 export default App;
