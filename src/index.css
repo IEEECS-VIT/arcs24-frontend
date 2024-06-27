@@ -4,7 +4,6 @@
   font-family: "Rugen";
   src: url("src/fonts/RugenExpanded.ttf") format("truetype");
 }
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -18,4 +17,9 @@
 
 .text-overlay span {
   background: linear-gradient(to left, #0a0f3f, #17062b, #241539, #110c24, #1F1233);
+}
+@layer base {
+  body {
+    @apply bg-[#01061B] text-white text-[1.8229166666666667vw];
+  }
 }
