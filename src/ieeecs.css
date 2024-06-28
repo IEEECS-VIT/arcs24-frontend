@@ -1,98 +1,119 @@
 body {
-    background-color: #01061b;
+  background-color: #01061b;
 }
 
 .main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
 }
 
 .text {
-    margin: 0 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    z-index: 1; /* Ensures text is on top */
+  margin: 0 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
 }
 
 .textell {
-    width: 750px;
-    height: 650px;
-    position: absolute;
+  width: 750px;
+  height: 650px;
+  position: absolute;
 }
 
 .newsp {
-    width: 580px;
-    height: 80px;
-    position: absolute;
+  width: 580px;
+  height: 80px;
+  position: absolute;
 }
 
-.first, .sec, .third, .four, .five, .six, .sev, .eig {
-    position: absolute;
-    width: 800px;
-    height: 180px;
+.first,
+.sec,
+.third,
+.four,
+.five,
+.six,
+.sev,
+.eig {
+  position: absolute;
+  width: 800px;
+  height: 180px;
 }
 
-.echoell, .axureell, .interell, .capsell, .featherell, .boltell, .galaxyell, .fashionell {
-    width: 190px;
-    height: 230px;
-    position: absolute;
+.echoell,
+.axureell,
+.interell,
+.capsell,
+.featherell,
+.boltell,
+.galaxyell,
+.fashionell {
+  width: 190px;
+  height: 230px;
+  position: absolute;
 }
 
-.echo, .axure, .inter, .caps, .feather, .bolt, .galaxy, .fashion {
-    width: 140px;
-    height: 140px;
-    position: absolute;
+.echo,
+.axure,
+.inter,
+.caps,
+.feather,
+.bolt,
+.galaxy,
+.fashion {
+  width: 140px;
+  height: 140px;
+  position: absolute;
 }
 
 .first {
-    left: 300px;  
-    top: 15%;
-    transform: translateY(-50%);
+  left: 300px;
+  top: 15%;
+  transform: translateY(-50%);
 }
 
 .sec {
-    left: 600px;
-    top: 19%;
+  left: 600px;
+  top: 19%;
 }
 
 .third {
-    left: 900px;
-    top: 15%;
-    transform: translateY(-50%);
+  left: 900px;
+  top: 15%;
+  transform: translateY(-50%);
 }
 
 .four {
-    left: 1200px;
-    top: 50%;
-    transform: translateY(-50%);
+  left: 1200px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .sev {
-    left: 300px;
-    top: 90%;
-    transform: translateY(-50%);
+  left: 300px;
+  top: 90%;
+  transform: translateY(-50%);
 }
 
 .six {
-    left: 600px;
-    top:79%;
-    transform: translateY(-50%);
+  left: 600px;
+  top: 79%;
+  transform: translateY(-50%);
 }
 
 .five {
-    left: 900px;
-    top:90%;
-    transform: translateY(-50%);
+  left: 900px;
+  top: 90%;
+  transform: translateY(-50%);
 }
 
 .eig {
-    left: 80px;
-    top: 50%;
-    transform: translateY(-50%);
+  left: 80px;
+  top: 50%;
+  transform: translateY(-50%);
 }
