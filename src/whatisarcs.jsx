@@ -34,7 +34,7 @@ const WhatIsArcs = ({ className = "" }) => {
   }, [seconds, minutes, hours, days]);
 
   return (
-    <div className={`relative w-full min-h-screen bg-gray-100 overflow-hidden text-white font-inter ${className} bg-[#01061B]`}>
+    <div className={`relative w-full min-h-screen bg-#01061B overflow-hidden text-white font-inter ${className} bg-[#01061B]`}>
       <div className="absolute inset-0 z-0">
         <img
           className="absolute w-2/5 left-8 z-10 -mt-2"
