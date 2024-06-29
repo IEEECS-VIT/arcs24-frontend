@@ -79,16 +79,16 @@ const WhatIsArcs = ({ className = "" }) => {
       <img
         src="a.svg"
         alt="a"
-        className="absolute w-[20vw] h-[15vw] right-[83%] bottom-[18%] transform translate-x-1/2 -translate-y-1/2"
+        className="absolute w-[20vw] h-[15vw] right-[82%] bottom-[12%] transform translate-x-1/2 -translate-y-1/2"
       />
 
       <div className="absolute top-[1047px] left-[5%] text-[12vw] font-black text-center inline-block w-[60vw] h-[30vw]">
         RCS
       </div>
 
-      <div className="absolute top-[1900px] left-[1410px]">
-        <div className="border-4 border-white rounded-lg p-20">
-          <div className="w-[574px] text-center font-rugen text-[1.8vw] whitespace-nowrap">
+      <div className="absolute top-[2000px] left-[1410px]">
+        <div className="border-4 border-white rounded-lg p-12">
+          <div className="w-[674px] text-center font-rugen text-[1vw] whitespace-nowrap">
             Explore more
           </div>
         </div>
@@ -99,7 +99,7 @@ const WhatIsArcs = ({ className = "" }) => {
           {[days, hours, minutes, seconds].map((value, index) => (
             <div
               key={index}
-              className="rounded-xl bg-gainsboro w-56 h-56 sm:w-100 sm:h-100 md:w-100 md:h-100 lg:w-100 lg:h-100 flex items-center justify-center"
+              className="rounded-xl bg-gainsboro w-56 h-56 sm:w-100 sm:h-80 md:w-80 md:h-80 lg:w-80 lg:h-80 flex items-center justify-center"
             >
               <span className="tracking-[0.01em] font-rugen text-cornflowerblue text-[10vw] sm:text-9xl md:text-14xl lg:text-14xl">
                 {value}
@@ -107,9 +107,9 @@ const WhatIsArcs = ({ className = "" }) => {
             </div>
           ))}
         </div>
-        <div className="flex space-x-12 mt-4">
+        <div className="flex space-x-12 mt-2">
           {['DAYS', 'HOURS', 'MINUTES', 'SECONDS'].map((label, index) => (
-            <span key={index} className="font-black text-lg sm:text-xl md:text-2xl lg:text-5xl">
+            <span key={index} className="font-black text-lg sm:text-xl md:text-6xl lg:text-6xl">
               {label}
             </span>
           ))}
