@@ -1,14 +1,14 @@
 body {
-    background-color: #01061b;
+  background-color: #01061b;
 }
 
 .main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
 }
 
 .text {
@@ -95,4 +95,3 @@ body {
     left: 15vh;
     top: 50%;
     transform: translateY(-50%);
-}
