@@ -86,9 +86,9 @@ const WhatIsArcs = ({ className = "" }) => {
         RCS
       </div>
 
-      <div className="absolute top-[35vw] left-[19vw]">
-        <div className="border-4 border-white rounded-lg p-12">
-          <div className="w-[674px] text-center font-rugen text-[1vw] whitespace-nowrap">
+      <div className="absolute top-[35vw] left-[20vw]">
+        <div className="border-4 border-white rounded-lg p-8">
+          <div className="w-[174px] text-center font-rugen text-[1vw] whitespace-nowrap">
             Explore more
           </div>
         </div>
@@ -99,17 +99,17 @@ const WhatIsArcs = ({ className = "" }) => {
     {[days, hours, minutes, seconds].map((value, index) => (
       <div
         key={index}
-        className="rounded-xl bg-gainsboro w-[4vw] h-[4vw] sm:w-[25vw] sm:h-[20vw] md:w-[20vw] md:h-[7vw] lg:w-[7vw] lg:h-[7vw] flex items-center justify-center"
+        className="rounded-xl bg-gainsboro w-[1vw] h-[1vw] sm:w-[10vw] sm:h-[10vw] md:w-[10vw] md:h-[5vw] lg:w-[5vw] lg:h-[5vw] flex items-center justify-center"
       >
-        <span className="tracking-[0.01em] font-rugen text-cornflowerblue text-[10vw] sm:text-[3vw] md:text-[3vw] lg:text-[3vw]">
+        <span className="tracking-[0.01em] font-rugen text-cornflowerblue text-[4vw] sm:text-[2vw] md:text-[2vw] lg:text-[2vw]">
           {value}
         </span>
       </div>
     ))}
   </div>
-  <div className="flex space-x-20 mt-2">
+  <div className="flex space-x-9 mt-2">
     {['DAYS', 'HOURS', 'MINUTES', 'SECONDS'].map((label, index) => (
-      <span key={index} className="font-black text-lg sm:text-xl md:text-6xl lg:text-6xl">
+      <span key={index} className="font-black text-lg sm:text-xl md:text-1xl lg:text-1xl">
         {label}
       </span>
     ))}
@@ -117,7 +117,7 @@ const WhatIsArcs = ({ className = "" }) => {
 </div>
 
 
-      <img src="line.svg" alt="line" className="absolute w-2/3 h-auto bottom-20 left-1/2 transform -translate-x-1/2" />
+      <img src="line.svg" alt="line" className="absolute w-2/3 h-auto bottom-5 left-1/2 transform -translate-x-1/2" />
     </div>
   );
 };
