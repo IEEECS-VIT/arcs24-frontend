@@ -1,9 +1,6 @@
 function LandingPage() {
   return (
     <div className="relative h-screen overflow-hidden bg-[#01061B]">
-      <div className="w-full pt-6 text-center">
-        <h1 className="text-red font-rugen">Nav bar here</h1>
-      </div>
       <div className="absolute inset-0 z-0">
         <img
           className="absolute bottom-40 left-5 z-10 w-6/12"
