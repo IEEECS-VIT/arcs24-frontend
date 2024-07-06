@@ -1,129 +1,54 @@
-import React, { useState, useEffect } from 'react';
-import PropTypes from 'prop-types';
+import React from 'react';
 
-const WhatIsArcs = ({ className = "" }) => {
-  const [days, setDays] = useState(14);
-  const [hours, setHours] = useState(56);
-  const [minutes, setMinutes] = useState(59);
-  const [seconds, setSeconds] = useState(2);
-
-  useEffect(() => {
-    const countdownInterval = setInterval(() => {
-      setSeconds(prev => {
-        if (prev > 0) return prev - 1;
-        if (minutes > 0) {
-          setMinutes(prev => prev - 1);
-          return 59;
-        }
-        if (hours > 0) {
-          setHours(prev => prev - 1);
-          setMinutes(59);
-          return 59;
-        }
-        if (days > 0) {
-          setDays(prev => prev - 1);
-          setHours(23);
-          setMinutes(59);
-          return 59;
-        }
-        return 0;
-      });
-    }, 1000);
-
-    return () => clearInterval(countdownInterval);
-  }, [seconds, minutes, hours, days]);
-
+const WhatIsArcs = () => {
   return (
-    <div className={`relative w-full min-h-screen bg-#01061B overflow-hidden text-white font-inter ${className} bg-[#01061B]`}>
-      <div className="absolute inset-0 z-0">
-        <img
-          className="absolute w-2/5 left-8 z-10 -mt-2"
-          src="/Ellipse 2.svg"
-          alt="Ellipse 2"
-        />
-        <img
-          className="absolute w-1/5 right-2.5 bottom-10 z-10"
-          src="/Ellipse 1.svg"
-          alt="Ellipse 1"
+    <div className="relative w-full min-h-screen bg-[#01061B] flex overflow-hidden text-white font-inter flex-col md:flex-row items-center justify-center">
+      {/* Image section for mobile screens */}
+      <navbar></navbar>
+      <div className="w-full md:w-1/2 flex justify-center items-center p-4 md:p-0 order-1 md:order-2">
+        <img 
+          src="two.svg"  // Use appropriate image for mobile screens
+          alt="Image for mobile" 
+          className="object-cover w-full h-auto md:hidden" // Hide on medium and large screens
         />
       </div>
 
-      <div className="absolute inset-0 flex flex-col justify-center items-center">
-        <div
-          className="text-xl font-jost"
-          style={{
-            fontSize: '1.7vw',
-            whiteSpace: 'nowrap',
-            position: 'absolute',
-            left: '20vw',
-            top: '13vw'
-          }}
-        >
-          Get READY to attend the event
+      {/* Text content section */}
+      <div className="flex-1 flex-col  relative p-2 md:p-0 order-2 md:order-1 lg:flex lg:flex-col lg:justify-bottom lg:items-end lg:pl-40">
+      <div className='flex flex-col '>
+        <h1 className="text-4xl md:text-8xl lg:text-5xl font-bold mb-6 md:mb-8 text-nowrap ">
+          WHAT IS ARCS?
+        </h1>
+        
+        <div className="mb-8 max-w-[100%] md:max-w-[90%] lg:max-w-[105%] leading-relaxed text-lg md:text-xl lg:text-2xl line-clamp-8 ">
+          <p className=" ">
+            Join us for this year's edition of ARCS, the prestigious flagship event brought to you by IEEE Computer Society. Over three captivating days, immerse yourself in the realm of technology's finest, as we pave the way for novel ideas.
+          </p>
         </div>
-        <div
-          className="text-[3vw] font-semibold font-jost w-[50vw] h-[15vw]"
-          style={{
-            position: 'absolute',
-            left: '18vw',
-            top: '15vw',
-            textAlign: 'center',
-            whiteSpace: 'nowrap'
-          }}
-        >
-          Where innovation meets Aspiration
+        
+        <div className="mb-6 max-w-full md:max-w-[90%] lg:max-w-[95%] leading-relaxed text-lg md:text-xl lg:text-2xl line-clamp-8 ">
+          <p className=" ">
+            ARCS'24 is the ultimate celebration of technology's transformative power, uniting visionaries, pioneers, and enthusiasts alike. This grand event fosters a dynamic platform for innovation to flourish.
+          </p>
+        </div>
+        </div>
+        <div className="flex justify-center md:justify-start p-6 md:pl-10">
+          <img src='arrow.svg' className='md:block'></img>
         </div>
       </div>
-
-      {/* Adjusted a.svg */}
-      <img
-        src="a.svg"
-        alt="a"
-        className="absolute w-[20vw] h-[15vw] right-[82%] bottom-[12%] transform translate-x-1/2 -translate-y-1/2"
-      />
-
-      <div className="absolute top-[16vw] left-[5%] text-[13vw] font-black text-center inline-block w-[60vw] h-[30vw]">
-        RCS
+     
+      
+      {/* Large screen view (hidden on mobile screens) */}
+      <div className="hidden md:flex md:w-screen md:h-screen  p-5 md:p-0 order-2  object lg:w-full lg:w-full ">
+        <img 
+          src="two.svg" 
+          alt="Image for large screen" 
+          className=" w-full h-full object-cover   "
+        />
       </div>
-
-      <div className="absolute top-[35vw] left-[20vw]">
-        <div className="border-4 border-white rounded-lg p-8">
-          <div className="w-[174px] text-center font-rugen text-[1vw] whitespace-nowrap">
-            Explore more
-          </div>
-        </div>
-      </div>
-
-      <div className="absolute bottom-[10%] left-2/3 transform -translate-x-1/2 flex flex-col items-center space-y-2 text-[8vw]">
-  <div className="flex space-x-6 mt-4">
-    {[days, hours, minutes, seconds].map((value, index) => (
-      <div
-        key={index}
-        className="rounded-xl bg-gainsboro w-[1vw] h-[1vw] sm:w-[10vw] sm:h-[10vw] md:w-[10vw] md:h-[5vw] lg:w-[5vw] lg:h-[5vw] flex items-center justify-center"
-      >
-        <span className="tracking-[0.01em] font-rugen text-cornflowerblue text-[4vw] sm:text-[2vw] md:text-[2vw] lg:text-[2vw]">
-          {value}
-        </span>
-      </div>
-    ))}
-  </div>
-  <div className="flex space-x-9 mt-2">
-    {['DAYS', 'HOURS', 'MINUTES', 'SECONDS'].map((label, index) => (
-      <span key={index} className="font-black text-lg sm:text-xl md:text-1xl lg:text-1xl">
-        {label}
-      </span>
-    ))}
-  </div>
-</div>
-
-
-      <img src="line.svg" alt="line" className="absolute w-2/3 h-auto bottom-5 left-1/2 transform -translate-x-1/2" />
+    
     </div>
   );
-};
-
-WhatIsArcs.propTypes = {
-  className: PropTypes.string,
 };
 
 export default WhatIsArcs;
