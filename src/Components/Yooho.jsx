@@ -22,22 +22,22 @@ function Yooho() {
             </span>
           </div>
           <div className="text-overlay hidden lg:flex lg:flex-col lg:items-start text-left">
-            <span className="rounded-xl pr-2 text-[8.35vh]">
+            <span className="rounded-r-xl pr-2 text-[8.35vh]">
               TWO
             </span>
-            <span className="rounded-xl pr-2 text-[8.35vh]">
+            <span class="rounded-r-xl pr-2 text-[8.35vh]">
               CREATIVE
             </span>
-            <span className="rounded-xl pr-2 text-[8.35vh]">
+            <span className="rounded-r-xl pr-2 text-[8.35vh]">
               EVENTS FOR THE
             </span>
-            <span className="rounded-xl pr-2 text-[8.35vh]">
+            <span className="rounded-r-xl pr-2 text-[8.35vh]">
               NEXT
             </span>
-            <span className="rounded-xl pr-2 text-[8.35vh]">
+            <span className="rounded-r-xl pr-2 text-[8.35vh]">
               WAVE OF
             </span>
-            <span className="rounded-xl pr-2 text-[8.35vh]">
+            <span className="rounded-r-xl pr-2 text-[8.35vh]">
               LOCAL TALENT
             </span>
           </div>
