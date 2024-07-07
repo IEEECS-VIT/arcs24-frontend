@@ -1,6 +1,6 @@
 import React from 'react';
 
-function App() {
+function resp() {
   return (
     <main>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
@@ -64,4 +64,4 @@ function App() {
   );
 }
 
-export default App;
+export default resp;
