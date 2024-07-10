@@ -5,6 +5,7 @@ import Combined from "./Components/Combined";
 import Sponsors from "./Components/Sponsors";
 import Navbar from "./Components/Navbar";
 
+
 function App() {
   return (
     <main>
@@ -14,6 +15,7 @@ function App() {
       <Yooho />
       <Combined />
       <Sponsors />
+      
     </main>
   );
 }
