@@ -3,8 +3,8 @@ import "../index.css";
 function Footer() {
   return (
     <div className="relative left-0 top-0 h-screen w-full font-source-serif">
-      <div className="flex flex-col lg:hidden w-full h-full animated-gradient-mobile">
-      <p className="highlight font-rugen text-[6.6vw]">DOUBLE THE FUN: H</p>
+      <div className="flex flex-col lg:hidden w-full h-full animated-gradient">
+        <p className="highlight font-rugen text-[6.6vw]">DOUBLE THE FUN: H</p>
         <div className="flex mt-8 mx-16">
       
         <div className="w-[90vw] text-[2vh]">
@@ -85,7 +85,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="hidden md:block">
+      <div className="hidden md:block animated-gradient">
         <p className="highlight font-rugen text-[3.85vw]">TWO EVENTS, DOUBLE THE FUN: H</p>
         <div className=" flex mt-32 mx-32">
       

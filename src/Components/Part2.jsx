@@ -1,9 +1,11 @@
 import React from 'react'
+import "../index.css";
+
 export default function Part2() {
   return (
     <>
-    <div>
-      <div className='d7 flex'>
+    <div >
+      <div className='d7 flex '>
       <div className='d2 flex mt-[11.765625vw]'>
         <img className='img2 ml-[1vw] h-[8.099873577749683vh] w-[3.958984375vw] m-[0.3255208333333333vw]' src="Group111.svg" alt=''/>
         <div className='d6 mt-[8.849557522123893vh] w-[45.572916666666664vw]'>
