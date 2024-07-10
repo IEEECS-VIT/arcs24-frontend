@@ -15,7 +15,9 @@
  
 }
 
-
+.highlight{
+  background: linear-gradient(to right, #7367CD, #6F5FCB, #654DC8, #5C39C5, #542AC2, #6C5BCA, #7D7CD0, #7A6ACF);
+}
 
 
 .text-overlay span {
