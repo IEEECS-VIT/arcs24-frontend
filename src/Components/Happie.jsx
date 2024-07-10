@@ -2,7 +2,7 @@ import React from "react";
 
 function Happie(){
     return(
-        <div className="relative bg-[#01061B] h-screen overflow-hidden flex md:p-0 min-[500px]:p-6 p-5 max-[767px]:flex-col max-[767px]:">
+        <div className="relative bg-[#01061B] h-screen overflow-hidden flex md:p-0 min-[500px]:p-6 p-5">
             <div className="absolute inset-y-0 left-0">
                 <img src="Ellipse 5.svg" />
             </div>
