@@ -2,25 +2,14 @@ import React from 'react'
 export default function Part2() {
   return (
     <>
-    <div>
-      <div className='d7 flex'>
-      <div className='d2 flex mt-[11.765625vw]'>
-        <img className='img2 ml-[1vw] h-[8.099873577749683vh] w-[3.958984375vw] m-[0.3255208333333333vw]' src="Group111.svg" alt=''/>
-        <div className='d6 mt-[8.849557522123893vh] w-[45.572916666666664vw]'>
-        <p className='p2 font-source-serif font-semibold leading-[151%] tracking-[0.2604166666666667vw]'>Lorem ipsum dolor sit amet</p>
-        <p className='p2 font-source-serif font-semibold leading-[151%] tracking-[0.2604166666666667vw]'>consectetur. Eget sem cursus</p>
-        <p className='p2 font-source-serif font-semibold leading-[151%] tracking-[0.2604166666666667vw]'>interdum in eros. Iaculis iaculis</p>
-        <p className='p2 font-source-serif font-semibold leading-[151%] tracking-[0.2604166666666667vw]'>turpis sit enim dictum interdum quis.</p>
-        <p className='p2 font-source-serif font-semibold leading-[151%] tracking-[0.2604166666666667vw]'>Tortor sed et sed pretium ultrices. Et</p>
-        <p className='p2 font-source-serif font-semibold leading-[151%] tracking-[0.2604166666666667vw]'>sit amet egestas <span className='t1 text-blurple'>aliquam nunc</span>.</p>
-        </div> 
-        <img className='img3 mr-[3.90625vw] mt-[37.92667509481669vh] h-[8.099873577749683vh] w-[3.958984375vw] ' src="/Group112.svg" alt=''/>
-    </div>
+    <div className='lg:flex'>
+      <div className="content1 ml-[20vw] mt-[4vh] lg:mt-[3.7926675094816686vh] lg:ml-[10vw] w-[1.3828125vw] lg:w-[27.799479166666668vw] border-red-600">
+        <p className='p1 ml-[5vw] lg:ml-[0]  w-[57.3828125vw] lg:w-[27.799479166666668vw] font-source-serif lg:mt-[0.6321112515802781vh] text-[1.463rem] lg:text-4xl font-bold leading-[145%] tracking-[0.3604166666666667vw]'><span className='t1 text-blurple'>Date: </span>12th June</p>
+        <p className='p1 ml-[7vw] lg:ml-[0] w-[57.3828125vw] lg:w-[27.799479166666668vw] font-source-serif lg:mt-[0.6321112515802781vh] text-2xl lg:text-4xl font-bold leading-[145%] tracking-[0.3604166666666667vw]'><span className='t1 text-blurple'>Venue: </span>Foodys</p>
+        <p className='p1 ml-[] lg:ml-[0] w-[77.3828125vw] lg:w-[27.799479166666668vw] font-source-serif lg:mt-[0.6321112515802781vh] text-2xl lg:text-4xl font-bold leading-[145%] tracking-[0.3604166666666667vw]'><span className='t1 text-blurple'>Price: </span>Rs 200 Only</p>
       </div>
-      
-    
-    <img className='img5 h-[6.826801517067004vh] mt-[9.578002528445005vh] ml-[8.067708333333334vw] w-[35.807291666666664vw]' src="ssss.svg" alt=''/>
+    <img className='img5 mt-[2vw] ml-[7.5vw] w-[85.182291666666668vw] h-[16.321112515802781vh] lg:h-[6.826801517067004vh] lg:mt-[9.578002528445005vh] lg:ml-[12.067708333333334vw] lg:w-[35.807291666666664vw]' src="ssss.svg" alt=''/>
     </div>
-    </>
+    </> 
   )
 }
