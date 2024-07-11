@@ -1,10 +1,12 @@
 import React from "react";
+import "../index.css";
+
 export default function Part1() {
   return (
     <>
-      <div className="div1 mt-[16.6953125vh]">
+      <div className="div1">
         <img
-          className="img1 h-[51.45891276864728vh] w-[46vw]"
+          className="img1 h-[51.45891276864728vh] w-[46vw] mt-[15vh]"
           src="Group115.svg"
         />
         <div className="content1 ml-[12.6953125vw] mt-[3.7926675094816686vh]">

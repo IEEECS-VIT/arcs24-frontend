@@ -1,8 +1,10 @@
+import "../index.css"
 import React from "react";
+
 
 const Sponsors = () => {
   return (
-    <div className="relative flex h-screen flex-wrap items-center justify-center bg-[#01061b]">
+    <div className="relative flex h-screen flex-wrap items-center justify-center animated-gradient">
       <div className="absolute left-[300px] top-[15%] h-[180px] w-[800px] -translate-y-1/2">
         <img
           src="echoell.svg"
