@@ -1,6 +1,8 @@
+import "../index.css"
+
 function Whyshouldi(){
     return(
-        <div className="relative h-screen overflow-hidden bg-[#01061B]">
+        <div className="relative h-screen overflow-hidden animated-gradient">
             <div className="absolute inset-0 z-0">
             <img
             className="absolute hidden lg:block"

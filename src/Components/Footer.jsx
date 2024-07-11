@@ -3,6 +3,12 @@ import "../index.css";
 function Footer() {
   return (
     <div className="relative left-0 top-0 h-screen w-full font-source-serif">
+      <div className="absolute inset-y-0 left-0">
+                <img src="Ellipse 5.svg" />
+            </div>
+            <div className="absolute inset-y-0 right-0">
+                <img src ="Ellipse 6.svg" />
+            </div>
       <div className="flex flex-col lg:hidden w-full h-full animated-gradient">
         <p className="highlight font-rugen text-[6.6vw]">DOUBLE THE FUN: H</p>
         <div className="flex mt-8 mx-16">

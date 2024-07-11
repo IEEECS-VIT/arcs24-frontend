@@ -3,7 +3,13 @@ import "../index.css"
 
 function HackBattle(){
     return(
-        <div className="relative  h-screen overflow-hidden bottom-[2vh]">
+        <div className="relative animated-gradient h-screen overflow-hidden bottom-[2vh]">
+            <div className="absolute inset-y-0 left-0">
+                <img src="Ellipse 5.svg" />
+            </div>
+            <div className="absolute inset-y-0 right-0">
+                <img src ="Ellipse 6.svg" />
+            </div>
             <h1 className="relative text-white text-center mt-16 font-rugen text-5xl">HACKBATTLE</h1>
             <div className="relative flex text-center pr-12 pl-12 justify-center bottom-20 flex-wrap">
                 
