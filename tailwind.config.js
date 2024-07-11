@@ -18,6 +18,7 @@ export default {
       },
       screens: {
         'small': { 'raw': '(max-height: 800px)' },
+        'tall': { 'raw': '(min-height: 950px)' },
         // => @media (min-height: 800px) { ... }
       }
     },
