@@ -4,10 +4,11 @@ import Yooho from "./Components/Yooho";
 import Combined from "./Components/Combined";
 import Sponsors from "./Components/responsivedesign";
 import Navbar from "./Components/Navbar";
-import Footer from "./Components/Footer"
-import HackBattle from "./Components/HackBattle"
-import Why from "./Components/WhyShouldI"
-import Happie from "./Components/Happie"
+import Footer from "./Components/Footer";
+import HackBattle from "./Components/HackBattle";
+import Why from "./Components/WhyShouldI";
+import Happie from "./Components/Happie";
+import Faq from "./Components/faq";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Combined />
       <Why />
       <Happie />
+      <Faq />
       <Footer />
     </main>
   );
