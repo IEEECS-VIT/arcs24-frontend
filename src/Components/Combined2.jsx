@@ -9,7 +9,6 @@ export default function Combined() {
         <Part4 />
         <Part5 />
         </div>
-      
     </>
   );            
 }

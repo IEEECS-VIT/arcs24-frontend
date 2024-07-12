@@ -49,4 +49,3 @@ function Happie(){
 }
 
 export default Happie;
-
