@@ -15,7 +15,7 @@ export default function Part5() {
         </p>
       </div>
       <img 
-        className='img5 mt-[2vw] ml-[7.5vw] w-[85.182291666666668vw] h-[16.321112515802781vh] lg:h-[6.826801517067004vh] lg:mt-[9.578002528445005vh] lg:ml-[10.067708333333334vw] lg:w-[35.807291666666664vw] order-2 lg:order-1' 
+        className='img5 mt-[2vw] ml-[7.5vw] w-[85.182291666666668vw] h-[16.321112515802781vh] lg:mb-[8vh] lg:h-[6.826801517067004vh] lg:mt-[9.578002528445005vh] lg:ml-[10.067708333333334vw] lg:w-[35.807291666666664vw] order-2 lg:order-1' 
         src="ssss.svg" 
         alt='' 
       />

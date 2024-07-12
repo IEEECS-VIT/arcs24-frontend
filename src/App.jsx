@@ -1,13 +1,14 @@
 import React from "react";
-import LandingPage from "./components/LandingPage";
-import Yooho from "./components/Yooho";
-import Combined from "./components/Combined";
-import Sponsors from "./components/responsivedesign";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer"
-import HackBattle from "./components/HackBattle"
-import Why from "./components/WhyShouldI"
-import Happie from "./components/Happie"
+import LandingPage from "./Components/LandingPage";
+import Yooho from "./Components/Yooho";
+import Combined from "./Components/Combined";
+import Combined2 from "./Components/Combined2";
+import Sponsors from "./Components/responsivedesign";
+import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer"
+import HackBattle from "./Components/HackBattle"
+import Why from "./Components/WhyShouldI"
+import Happie from "./Components/Happie"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <LandingPage />
       <Yooho />
       <Combined />
+      <Combined2/ >
       <Why />
       <Happie />
       <Footer />

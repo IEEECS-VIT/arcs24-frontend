@@ -5,7 +5,7 @@ import Part5 from './Part5';
 export default function Combined() {
   return (
     <>
-      <div className='d4'>
+      <div className='d4 text-white'>
         <Part4 />
         <Part5 />
         </div>
