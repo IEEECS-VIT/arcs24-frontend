@@ -14,8 +14,13 @@ export default {
         "bright-pink": "#B31AD6",
         "dull-pink": "#8E4497",
         blurple: "#9F9DFF",
-        "dark-purple": "01061B",
+        background: "#01061B",
       },
+      screens: {
+        'small': { 'raw': '(max-height: 800px)' },
+        'tall': { 'raw': '(min-height: 950px)' },
+        // => @media (min-height: 800px) { ... }
+      }
     },
     plugins: [],
   },

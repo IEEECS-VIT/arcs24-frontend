@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap");
+
 @font-face {
   font-family: "Rugen";
   src: url("src/fonts/RugenExpanded.ttf") format("truetype");
@@ -7,19 +8,24 @@
 @tailwind components;
 @tailwind utilities;
 
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+.animated-gradient {
+  /* background: linear-gradient(to left, #160d25 , #1b0f2c, #110c24,#150727, #190a2b,#210f37,#1e1032,  #12092f);
+   */
+   background: linear-gradient(to left, #241438, #01061B ,#01051A, #01061A,#01051B, #01051A, #241438);
+ 
 }
-@layer base {
-  body {
-    @apply bg-[#01061B] text-white text-[1.8229166666666667vw];
-  }
+
+.animated-gradient-mobile{
+  background: linear-gradient(to left, #290C2E,#02061B, #01061A,#01051B, #01051A, #290C2E);
 }
+
+.highlight{
+  background: linear-gradient(to right, #7367CD, #6F5FCB, #654DC8, #5C39C5, #542AC2, #6C5BCA, #7D7CD0, #7A6ACF);
+}
+
+
+.text-overlay span {
+  background: linear-gradient(to left, #01061B ,#01051A, #01061A,#01051B, #01051A);
+}
+
+
