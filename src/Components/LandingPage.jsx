@@ -44,7 +44,7 @@ function LandingPage() {
       </div>
       <div className="relative z-20 lg:flex justify-items-center  gap-x-8 lg:mt-10 mt-14 lg:mx-72">
         <button>
-        <img src="/LeftButton.svg" className="lg:h-[12vh] hidden lg:block"/>
+        <img src="/LeftButton.svg" className="lg:h-[12vh] hidden lg:block "/>
       
         
         <img

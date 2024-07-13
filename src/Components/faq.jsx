@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Accordion from "./accordion";
+import "../index.css"
 
 const CicadaFaqItems = [
   {
@@ -116,7 +117,7 @@ const Faq = () => {
   };
 
   return (
-    <div className="flex min-h-screen w-full items-center justify-around p-10 md:flex-row flex-col">
+    <div className="flex animated-gradient min-h-screen w-full items-center justify-around p-10 md:flex-row flex-col">
       <div className="flex flex-col gap-4">
         <p className="font-rugen text-7xl text-[#F7F6F3]">FAQS</p>
         <div className="flex items-center justify-center gap-2">
