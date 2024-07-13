@@ -17,7 +17,7 @@ function App() {
       <LandingPage />
       <Yooho />
       <Combined />
-      <Combined2/ >
+      <Combined2/>
       <Why />
       <Happie />
       <Footer />
