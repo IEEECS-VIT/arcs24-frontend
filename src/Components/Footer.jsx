@@ -92,7 +92,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="hidden md:block animated-gradient">
+      <div className="hidden lg:block animated-gradient">
         <p className="highlight font-rugen text-[3.85vw] text-white">TWO EVENTS, DOUBLE THE FUN: H</p>
         <div className=" flex mt-32 mx-32">
       
