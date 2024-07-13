@@ -32,31 +32,32 @@ function Footer() {
         <div className="w-full flex justify-center mt-8 text-[2vh] ">
         <form className="w-full mx-3.5">
           <div className="flex ">
-            <label htmlFor="name" className="w-36 text-justify justify-center inline-flex text-white border border-b-white border-t-0 rounded-b-full">Name</label>
+            <label htmlFor="name" className="mb-2 flex w-36 items-center gap-4 rounded-xl border-b border-white text-white text-justify justify-center">Name</label>
             <input
               type="text" id="name" name="name"
-              className="w-full rounded-b-full ml-4 border bg-[#01061B] text-white border-b-white border-t-0"
-              required
-            />
-          </div>
-          <div className="flex mt-3">
-            <label htmlFor="email" className="w-36 text-justify justify-center inline-flex text-white border border-b-white border-t-0 rounded-b-full">Email-Id</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              className="w-full rounded-b-full ml-4 border bg-[#01061B] text-white border-b-white border-t-0"
+              className="ml-6 mb-2 flex w-full items-center gap-4 rounded-xl border-b border-white text-justify justify-center bg-[#01061B] text-white border-b-white border-t-0"
               required
             />
           </div>
           <div className="mb-4 flex mt-3 ">
-            <label htmlFor="message" className="w-36 inline-flex text-white mb-2 border border-b-white border-t-0 rounded-b-full text-justify justify-center">Message</label>
+            <label htmlFor="message" className="mb-2 flex w-36 items-center gap-4 rounded-xl border-b border-white text-white text-justify justify-center">Message</label>
             <input
               name="message"
-              className="w-full rounded-b-full ml-4 border bg-[#01061B] text-white border-b-white border-t-0"
+              className="ml-6 mb-2 flex w-full items-center gap-4 rounded-xl border-b border-white text-justify justify-center bg-[#01061B] text-white border-b-white border-t-0"
               required
             />
           </div>
+          <div className="flex mt-3">
+            <label htmlFor="email" className="mb-2 flex w-36 items-center gap-4 rounded-xl border-b border-white text-white text-justify justify-center">Email-Id</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              className="ml-6 mb-2 flex w-full items-center gap-4 rounded-xl border-b border-white text-justify justify-center bg-[#01061B] text-white border-b-white border-t-0"
+              required
+            />
+          </div>
+          
           <div className="flex justify-center my-7">
             <button
               type="submit"
@@ -122,33 +123,34 @@ function Footer() {
         </div>
         </div>
         <div className="w-full flex justify-center mt-24">
-        <form className="w-1/3 text-[3vh]">
+        <form className="w-2/5 text-[3vh]">
           <div className="flex">
-            <label htmlFor="name" className="w-36 text-justify justify-center inline-flex text-white mb-2 border border-b-white border-t-0 rounded-b-full">Name</label>
+            <label htmlFor="name" className="mb-2 flex w-40 items-center gap-4 rounded-xl border-b border-white text-white text-justify justify-center">Name</label>
             <input
               type="text" id="name" name="name"
-              className="w-full rounded-b-full ml-4 border bg-[#01061B] text-white border-b-white border-t-0"
-              required
-            />
-          </div>
-          <div className="flex mt-6">
-            <label htmlFor="email" className="w-36 text-justify justify-center inline-flex text-white mb-2 border border-b-white border-t-0 rounded-b-full">Email-Id</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              className="w-full rounded-b-full ml-4 border bg-[#01061B] text-white border-b-white border-t-0"
+              className="ml-6 mb-2 flex w-full items-center gap-4 rounded-xl border-b border-white text-justify justify-center bg-[#01061B] text-white border-b-white border-t-0"
               required
             />
           </div>
           <div className="mb-4 flex mt-6">
-            <label htmlFor="message" className="w-36 inline-flex text-white mb-2 border border-b-white border-t-0 rounded-b-full text-justify justify-center">Message</label>
+            <label htmlFor="message" className="mb-2 flex w-40 items-center gap-4 rounded-xl border-b border-white text-white text-justify justify-center">Message</label>
             <input
               name="message"
-              className="w-full rounded-b-full ml-4 border bg-[#01061B] text-white border-b-white border-t-0"
+              className="ml-6 mb-2 flex w-full items-center gap-4 rounded-xl border-b border-white text-justify justify-center bg-[#01061B] text-white border-b-white border-t-0"
               required
             />
           </div>
+          <div className="flex mt-6">
+            <label htmlFor="email" className="mb-2 flex w-40 items-center gap-4 rounded-xl border-b border-white text-white text-justify justify-center">Email-Id</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              className="ml-6 mb-2 flex w-full items-center gap-4 rounded-xl border-b border-white text-justify justify-center bg-[#01061B] text-white border-b-white border-t-0"
+              required
+            />
+          </div>
+          
           <div className="flex justify-center">
             <button
               type="submit"
