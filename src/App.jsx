@@ -2,7 +2,7 @@ import React from "react";
 import LandingPage from "./Components/LandingPage";
 import Yooho from "./Components/Yooho";
 import Combined from "./Components/Combined";
-import Combined from "./Components/Combined2";
+import Combined2 from "./Components/Combined2";
 import Sponsors from "./Components/responsivedesign";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
