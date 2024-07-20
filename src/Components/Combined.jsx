@@ -8,7 +8,7 @@ export default function Combined() {
     <>
     <img className="d56 absolute" src="Ellipse1.svg"/>
     <img className="d57 absolute right-0" src="Ellipse2.svg"/>
-      <div className="d110 text-white">
+      <div className="d110 text-white relative">
         <Part1 />
         <Part2 />
       </div>
