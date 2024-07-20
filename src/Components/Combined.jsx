@@ -6,6 +6,8 @@ import "../index.css"
 export default function Combined() {
   return (
     <>
+    <img className="d56 absolute" src="Ellipse1.svg"/>
+    <img className="d57 absolute right-0" src="Ellipse2.svg"/>
       <div className="d110 text-white">
         <Part1 />
         <Part2 />
