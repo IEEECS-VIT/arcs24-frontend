@@ -1,12 +1,30 @@
 import React from "react";
-import WhatIsArcs from "./whatisarcs";
+import LandingPage from "./Components/LandingPage";
+import Yooho from "./Components/Yooho";
+import Combined from "./Components/Combined";
+import Combined2 from "./Components/Combined2";
+import Sponsors from "./Components/responsivedesign";
+import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
+import HackBattle from "./Components/HackBattle";
+import Why from "./Components/WhyShouldI";
+import Happie from "./Components/Happie";
+import Faq from "./Components/faq";
 
 function App() {
-  return <main>
-<WhatIsArcs></WhatIsArcs>
-
-
-  </main>;
+  return (
+    <main>
+      <Navbar />
+      <LandingPage />
+      <Yooho />
+      <Combined/>
+      <Combined2/>
+      <Why />
+      <Happie />
+      <Faq />
+      <Footer />
+    </main>
+  );
 }
 
 export default App;
