@@ -2,9 +2,8 @@ import React from 'react';
 
 export default function Part1() {
   return (
-    <div className='div1  h-full m-0 lg:flex lg:mt-0 lg:ml-[2.2552083333333335vw]'>
-      
-      <img className='img1 mt-0 ml-[2vw] lg:ml-[0vw] h-[0] w-[0] lg:h-[51.45891276864728vh] lg:w-[46vw] ' src="Group115.svg" alt='' />
+    <div className='div1 m-0 lg:flex lg:mt-[18.6953125vh] lg:ml-[2.2552083333333335vw]'>
+      <img className='img1 mt-[2vh] ml-[2vw] lg:ml-[0vw] h-[0] w-[0] lg:h-[51.45891276864728vh] lg:w-[46vw] ' src="Group115.svg" alt='' />
       <img className='img10 mt-[5vh] ml-[22.5vw] h-[25vh] lg:hidden' src='Group117.svg' alt='' />
       <div className='d2 mt-[2.5vh] lg:ml-[2.5vw] lg:mt-[2vw] flex '>
         <img className='img2 ml-[1vw] h-[6.7926675094816686vh] w-[7.2135416666666665vw] lg:h-[8.099873577749683vh] lg:w-[3.958984375vw] lg:m-[0.3255208333333333vw] lg:mr-[0]' src="Group111.svg" alt='' />

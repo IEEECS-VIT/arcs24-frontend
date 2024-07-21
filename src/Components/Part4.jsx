@@ -1,9 +1,9 @@
 import React from 'react';
-import "../index.css"
+
 export default function Part4() {
   return (
-    <div className='div1 m-0 lg:flex lg:mt-0 lg:ml-[2.2552083333333335vw]'>
-      <img className='img10 mt-0 ml-[22.5vw] h-[25vh] lg:hidden order-1' src='Group119.svg' alt='' />
+    <div className='div1 m-0 lg:flex lg:mt-[18.6953125vh] lg:ml-[2.2552083333333335vw]'>
+      <img className='img10 mt-[5vh] ml-[22.5vw] h-[25vh] lg:hidden order-1' src='Group119.svg' alt='' />
       <div className='d2 mt-[2.5vh] lg:ml-[2.5vw] lg:mt-[2vw] flex order-2 lg:order-1'>
         <img className='img2 ml-[1vw] h-[6.7926675094816686vh] w-[7.2135416666666665vw] lg:h-[8.099873577749683vh] lg:w-[3.958984375vw] lg:m-[0.3255208333333333vw] lg:mr-[0]' src="Group111.svg" alt='' />
         <div className='d6 mt-[8vw] lg:mt-[5.849557522123893vh] w-[81.744791666666668vw] lg:w-[51.744791666666668vw]'>

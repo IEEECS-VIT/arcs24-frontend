@@ -13,8 +13,8 @@ function Yooho() {
             </div>
       
       <div className="relative">
-        <img className="h-[50vh] w-[80vw] lg:h-[75vh] lg:w-[90vw]" src="/yoho.png" alt="Yoho" />
-        <div className="absolute left-0 top-[-14vh] lg:top-0 box-border lg:flex lg:flex-col lg:flex-wrap font-rugen text-white w-full h-full">
+        <img className="h-[50vh] w-[90vw] lg:h-[75vh] lg:w-[90vw]" src="/yoho.png" alt="Yoho" />
+        <div className="absolute left-0 top-[-12vh] lg:top-0 box-border lg:flex lg:flex-col lg:flex-wrap font-rugen text-white w-full h-full">
           <div className="flex flex-col lg:hidden text-center w-full h-full">
             <span className="text-[2vh]">
               TWO CREATIVE
