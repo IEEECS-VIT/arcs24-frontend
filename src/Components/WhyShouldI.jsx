@@ -3,12 +3,7 @@ import "../index.css"
 function Whyshouldi(){
     return(
         <div className="relative h-screen overflow-hidden animated-gradient">
-            
-            <div className="absolute inset-y-0 left-0">
-        <img src="Ellipse 5.svg" alt="Left decoration" />
-      </div>
-      <div className="absolute inset-y-0 right-0">
-        <img src="Ellipse 6.svg" alt="Right decoration" />
+            <div className="absolute inset-0 z-0">
             <img
             className="absolute hidden lg:block"
             src="/wsi1.svg"
