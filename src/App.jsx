@@ -10,12 +10,14 @@ import HackBattle from "./Components/HackBattle";
 import Why from "./Components/WhyShouldI";
 import Happie from "./Components/Happie";
 import Faq from "./Components/faq";
+import WhatIsArcs from "./whatisarcs";
 
 function App() {
   return (
     <main>
       <Navbar />
       <LandingPage />
+      <WhatIsArcs/>
       <Yooho />
       <Combined/>
       <Combined2/>
