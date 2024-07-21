@@ -3,18 +3,12 @@ import "../index.css"
 function Whyshouldi(){
     return(
         <div className="relative h-screen overflow-hidden animated-gradient">
-            <div className="absolute inset-0 z-0">
-            <img
-            className="absolute hidden lg:block"
-            src="/wsi1.svg"
-            />
-            <img
-            className="absolute right-0 top-28 w-[25vh]"
-            src="/wsi2.svg"
-            />
-            
+            <div className="absolute inset-y-0 left-0">
+                <img src="Ellipse 5.svg" />
             </div>
-
+            <div className="absolute inset-y-0 right-0">
+                <img src ="Ellipse 6.svg" />
+            </div>
             <div className="lg:flex lg:justify-center lg:items-start mt-16 lg:gap-x-28 hidden">
              <div className="flex flex-col">
                  <h1 className="font-rugen text-white text-[3vh] leading-tight lg:text-[4.75vh] z-20 mt-4 ">WHY YOU</h1>
