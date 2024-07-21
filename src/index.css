@@ -16,21 +16,17 @@
    
 }
 
-.animated-gradient-mobile{
-  background: linear-gradient(to left, #290C2E,#02061B, #01061A,#01051B, #01051A, #290C2E);
-}
 
-.highlight{
-  background: linear-gradient(to right, #7367CD, #6F5FCB, #654DC8, #5C39C5, #542AC2, #6C5BCA, #7D7CD0, #7A6ACF);
-}
 
 
 .text-overlay span {
-  background: linear-gradient(to left, #01061B ,#01051A, #01061A,#01051B, #01051A);
+  background: linear-gradient(to left, #0a0f3f, #17062b, #241539, #110c24, #4b1a1a);
 }
-
 @layer base {
-  body{
-    @apply bg-[#01061B] text-white 
+  body {
+    @apply bg-[#01061B] text-white text-[1.8229166666666667vw];
   }
+}
+body {
+  overflow-y: hidden;
 }
