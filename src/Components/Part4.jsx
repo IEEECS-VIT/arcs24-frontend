@@ -1,5 +1,5 @@
 import React from 'react';
-
+import "../index.css"
 export default function Part4() {
   return (
     <div className='div1 m-0 lg:flex lg:mt-[18.6953125vh] lg:ml-[2.2552083333333335vw] lg:mr-[10vw]'>
