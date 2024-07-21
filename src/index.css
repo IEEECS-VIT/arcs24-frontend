@@ -12,7 +12,8 @@
   /* background: linear-gradient(to left, #160d25 , #1b0f2c, #110c24,#150727, #190a2b,#210f37,#1e1032,  #12092f);
    */
    background: linear-gradient(to left, #241438, #01061B ,#01051A, #01061A,#01051B, #01051A, #241438);
- 
+   min-height: 100vh;
+   
 }
 
 .animated-gradient-mobile{
@@ -23,7 +24,6 @@
   background: linear-gradient(to right, #7367CD, #6F5FCB, #654DC8, #5C39C5, #542AC2, #6C5BCA, #7D7CD0, #7A6ACF);
 }
 
-
 .text-overlay span {
   background: linear-gradient(to left, #01061B ,#01051A, #01061A,#01051B, #01051A);
 }
@@ -33,3 +33,5 @@
     @apply bg-[#01061B] text-white 
   }
 }
+
+
