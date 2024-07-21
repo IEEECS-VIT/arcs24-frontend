@@ -10,7 +10,7 @@ import HackBattle from "./Components/HackBattle";
 import Why from "./Components/WhyShouldI";
 import Happie from "./Components/Happie";
 import Faq from "./Components/faq";
-import WhatIsArcs from "./whatisarcs";
+import WhatIsArcs from "./Components/whatisarcs";
 
 function App() {
   return (

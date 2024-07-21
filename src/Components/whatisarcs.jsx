@@ -1,10 +1,17 @@
 import React from 'react';
+import "../index.css"
 
 const WhatIsArcs = () => {
   return (
-    <div className="relative w-full min-h-screen bg-[#01061B] flex overflow-hidden text-white font-inter flex-col md:flex-row items-center justify-center">
+    <div className="relative w-full min-h-screen animated-gradient flex overflow-hidden text-white font-serif flex-col md:flex-row items-center justify-center">
       {/* Image section for mobile screens */}
-      <div className="w-full md:w-1/2 flex justify-center items-center p-4 md:p-0 order-1 md:order-2">
+      <div className="absolute inset-y-0 left-0">
+                <img src="Ellipse 5.svg" />
+            </div>
+            <div className="absolute inset-y-0 right-0">
+                <img src ="Ellipse 6.svg" />
+            </div>
+      <div className="w-full md:w-1/4 flex justify-center items-center p-4 md:p-0 order-1 md:order-2">
         <img 
           src="two.svg"  // Use appropriate image for mobile screens
           alt="Image for mobile" 
