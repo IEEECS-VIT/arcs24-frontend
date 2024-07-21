@@ -12,10 +12,14 @@ export default function Combined() {
       <div className="absolute inset-y-0 right-0">
         <img src="Ellipse 6.svg" alt="Right decoration" />
       </div>
-      <div className="relative z-10">
-        <Part1 />
-        <Part2 />
+      
+      <div className="relative z-10 ">
+        <div className=" absolute lg:mt-[15vh]">
+          <Part1 />
+          <Part2 />
+        </div>
       </div>
+      
     </div>
   );
 }
