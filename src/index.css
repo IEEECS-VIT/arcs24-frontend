@@ -28,10 +28,10 @@
   background: linear-gradient(to left, #01061B ,#01051A, #01061A,#01051B, #01051A);
 }
 
-@layer base {
+/* @layer base {
   body{
     @apply bg-[#01061B] text-white 
   }
-}
+} */
 
 
