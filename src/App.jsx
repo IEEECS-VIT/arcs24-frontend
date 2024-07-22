@@ -21,8 +21,9 @@ function App() {
       <Yooho />
       <Combined/>
       <Combined2/>
-      <Spons />
+      
       <Why />
+      <Spons/>
       <Happie />
       <Faq />
       <Footer />
