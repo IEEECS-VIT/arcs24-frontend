@@ -41,7 +41,7 @@ const AccordionItem = ({ title, content }) => {
 
 const Accordion = ({ items }) => {
   return (
-    <div className="w-[60%] overflow-hidden">
+    <div className="w-[99%] overflow-hidden sm:w-[95%] md:w-[60%]">
       {items.map((item, index) => (
         <AccordionItem key={index} title={item.title} content={item.content} />
       ))}
