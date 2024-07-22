@@ -16,7 +16,7 @@ export default {
         "blurple": "#9F9DFF",
         background: "#01061B",
       },
-        screens: {
+      screens: {
         'small': { 'raw': '(max-height: 800px)' },
         'tall': { 'raw': '(min-height: 950px)' },
       }
