@@ -1,36 +1,67 @@
-import React from "react";
-import "../index.css";
+import React from 'react';
 
-function Resp() {
-  const sponsors = [
-    { src: "echoell.svg", alt: "Echo3D", className: "top-0 left-1/2 transform -translate-x-1/2" },
-    { src: "bolt.svg", alt: "Axure", className: "top-1/4 right-0 transform translate-x-1/2" },
-    { src: "interlock.svg", alt: "Interlock", className: "top-1/2 right-0 transform translate-x-1/2 -translate-y-1/2" },
-    { src: "capsell.svg", alt: "Capsule", className: "bottom-1/4 right-0 transform translate-x-1/2" },
-    { src: "featherdev.svg", alt: "FeatherDev", className: "bottom-0 left-1/2 transform -translate-x-1/2" },
-    { src: "boltshift.svg", alt: "Boltshift", className: "bottom-1/4 left-0 transform -translate-x-1/2" },
-    { src: "fashionell.svg", alt: "Galaxy Cinemas", className: "top-1/2 left-0 transform -translate-x-1/2 -translate-y-1/2" },
-    { src: "fashion.svg", alt: "Fashion Factory", className: "top-1/4 left-0 transform -translate-x-1/2" },
-  ];
-
+function resp() {
   return (
-    <div className="animated-gradient relative h-screen flex flex-col items-center justify-center overflow-hidden">
-      <p className="align-middle text-center text-2xl font-bold mb-8">
-        OUR PREVIOUS SPONSORS
-      </p>
-      <div className="relative w-full h-full">
-        {sponsors.map((sponsor, index) => (
-          <div key={index} className={`absolute ${sponsor.className} flex items-center justify-center`}>
-            <img
-              src={sponsor.src}
-              className="rounded-full object-cover w-24 h-24"
-              alt={sponsor.alt}
-            />
-          </div>
-        ))}
+    <main>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+      <section className='sm:justify-center sm:items-center'>
+      <div>
+        <img src="prevsponsors.png" className='w-4/5 justify-center items-center mx-8 mt-24 mt-16'
+        />
       </div>
-    </div>
+      <div className='items-center'>
+      <div className='relative md:ml-24 lg:ml-24 xl:ml-48'>
+        <img src="echoell.svg" className='absolute w-44 mt-9 object-cover rounded-full z-10 '
+        />
+        <img src="galaxy.svg" className='absolute w-28 ml-12 mt-16 object-cover rounded-full z-20'
+        />
+      </div>
+      <div className='relative md:ml-40 lg:ml-56 xl:ml-72'>
+        <img src="echoell.svg" className='absolute w-44 ml-32 mt-9 object-cover rounded-full z-10'
+        />
+        <img src="bolt.svg" className='absolute w-28 ml-48 mt-16 object-cover rounded-full z-20'
+        />
+      </div>
+      <div className='relative md:ml-64 lg:ml-96 xl:ml-96'>
+        <img src="echoell.svg" className='absolute w-44 ml-72 mt-9 object-cover rounded-full z-10'
+        />
+        <img src="axure.svg" className='absolute w-28 ml-80 mt-16 object-cover rounded-full z-20'
+        />
+      </div>
+      <div className='relative md:ml-24 lg:ml-24 xl:ml-48'>
+        <img src="echoell.svg" className='absolute w-44 mt-48 object-cover rounded-full z-10'
+        />
+        <img src="caps.svg" className='absolute w-28 ml-12 mt-56 object-cover rounded-full z-20'
+        />
+      </div>
+      <div className='relative md:ml-40 lg:ml-56 xl:ml-72'>
+        <img src="echoell.svg" className='absolute w-44 ml-40 mt-48 object-cover rounded-full z-10'
+        />
+        <img src="feather.svg" className='absolute w-28 ml-48 mt-56 object-cover rounded-full z-20'
+        />
+      </div>
+      <div className='relative md:ml-64 lg:ml-96 xl:ml-96'>
+        <img src="echoell.svg" className='absolute w-44 ml-72 mt-48 object-cover rounded-full z-10'
+        />
+        <img src="inter.svg" className='absolute w-28 ml-80 mt-56 object-cover rounded-full z-20'
+        />
+      </div>
+      <div className='relative md:ml-32 lg:ml-40 xl:ml-56'>
+        <img src="echoell.svg" className='absolute w-44 ml-20 mt-96 object-cover rounded-full z-10'
+        />
+        <img src="echo.svg" className='absolute w-28 ml-32 mt-96 object-cover rounded-full z-20'
+        />
+      </div>
+      <div className='relative md:ml-48 lg:ml-72 xl:ml-80'>
+        <img src="echoell.svg" className='absolute w-44 ml-56 mt-96 object-cover rounded-full z-10'
+        />
+        <img src="fashion.svg" className='absolute w-28 ml-64 mt-96 object-cover rounded-full z-20'
+        />
+      </div>
+      </div>
+      </section>
+    </main>
   );
 }
 
-export default Resp;
+export default resp;
