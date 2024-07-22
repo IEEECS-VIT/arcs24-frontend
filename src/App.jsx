@@ -3,7 +3,7 @@ import LandingPage from "./Components/LandingPage";
 import Yooho from "./Components/Yooho";
 import Combined from "./Components/Combined";
 import Combined2 from "./Components/Combined2";
-import Sponsors from "./Components/responsivedesign";
+import Spons from "./Components/Spons";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import HackBattle from "./Components/HackBattle";
@@ -21,6 +21,7 @@ function App() {
       <Yooho />
       <Combined/>
       <Combined2/>
+      <Spons/>
       <Why />
       <Happie />
       <Faq />
