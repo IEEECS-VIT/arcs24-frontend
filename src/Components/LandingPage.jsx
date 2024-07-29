@@ -43,14 +43,15 @@ function LandingPage() {
         </p>
       </div>
       <div className="relative z-20 lg:flex justify-center items-center mx-5 gap-x-8 lg:mt-10 mt-14 lg:mx-96">
-  <button className="flex justify-center items-center ">
-    <img src="/LeftButton.svg" className="lg:h-[12vh] hidden lg:block select-none pointer-events-none " />
-    <img src="/MobileLanding1.svg" className="lg:hidden block h-[10vh] mx-[20vh]" />
-  </button>
-  <button className="flex justify-center items-center align-">
-    <img src="/RightbuttonLandingPage.svg" className="lg:h-[12vh] hidden lg:block select-none pointer-events-none " />
-    <img src="/MobileLanding2.svg" className="lg:hidden block h-[10vh] mx-[19vh]" />
-  </button>
+  
+  <div style={{ backgroundImage: "url('./Group 135.svg')" }} className="w-[25vw] h-[10vh] bg-cover bg-center flex items-center justify-center">
+  <p className="text-white text-lg font-bold font-rugen text-[4vh] ">HACKBATTLE</p>
+</div>
+
+   
+<button style={{ backgroundImage: "url('./Group 135.svg')" }} className="w-[25vw] h-[10vh] bg-cover bg-center flex items-center justify-center no-underline text-white/80 bg-[#01061B] font-normal uppercase transition-all duration-200 ease-in-out">
+  <p className="text-white text-lg font-bold font-rugen text-[4vh] ">CICADA</p>
+</button>
 </div>
 
       <div className="absolute bottom-9 z-20  w-full rotate-3 border border-dashed border-gray-400 bg-gradient-to-r from-[#01061B] via-100% to-[#073543]">

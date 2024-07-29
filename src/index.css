@@ -25,7 +25,17 @@
 }
 
 .text-overlay span {
-  background: linear-gradient(to left, #01061B ,#01051A, #01061A,#01051B, #01051A);
+  background: linear-gradient(to left, #241438, #01061B ,#01051A, #01061A,#01051B, #01051A, #201132);
+   
+}
+
+.landing-button {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  background: [#01061B];
+  font-weight: normal;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
 }
 
 @layer base {

@@ -5,12 +5,7 @@ function Yooho() {
     <div className="relative flex min-h-screen items-center justify-center">
       
       <div className="animated-gradient absolute left-0 top-0 h-screen w-full"></div>
-      <div className="absolute inset-y-0 left-0">
-                <img src="Ellipse 5.svg" />
-            </div>
-            <div className="absolute inset-y-0 right-0">
-                <img src ="Ellipse 6.svg" />
-            </div>
+      
       
       <div className="relative">
         <img className="h-[50vh] w-[90vw] lg:h-[75vh] lg:w-[90vw]" src="/yoho.png" alt="Yoho" />
