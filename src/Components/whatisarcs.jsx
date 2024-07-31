@@ -22,11 +22,11 @@ const WhatIsArcs = () => {
       {/* Text content section */}
       <div className="flex-2 flex-col relative p-2 md:p-0 order-2 md:order-1 lg:flex lg:flex-col lg:justify-end lg:items-end lg:pl-10 md:ml-10 lg:ml-20">  {/* Added margin to shift right */}
         <div className='flex flex-col'>
-          <h1 className="text-4xl md:text-6xl lg:text-4xl font-bold mb-6 md:mb-8 text-nowrap">  {/* Adjusted text sizes */}
+          <h1 className="text-4xl md:text-6xl lg:text-4xl font-bold mb-6 md:mb-8 text-nowrap font-rugen">  {/* Adjusted text sizes */}
             WHAT IS ARCS?
           </h1>
           
-          <div className="mb-8 max-w-[100%] md:max-w-[80%] lg:max-w-[80%] leading-relaxed text-lg md:text-lg lg:text-lg">  {/* Adjusted text sizes and max widths */}
+          <div className="mb-8 max-w-[100%] md:max-w-[80%] lg:max-w-[80%] leading-relaxed text-lg md:text-lg lg:text-lg font-source-serif ">  {/* Adjusted text sizes and max widths */}
             <p>
               {`Join us for this year's edition of ARCS, the prestigious flagship event brought to you by IEEE Computer Society.`}
             </p>
