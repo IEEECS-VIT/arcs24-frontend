@@ -35,3 +35,18 @@
 }
 
 
+@keyframes arrowAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animated-arrow {
+  animation: arrowAnimation 2s ease-in-out infinite;
+}
