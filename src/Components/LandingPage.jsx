@@ -44,14 +44,25 @@ function LandingPage() {
       </div>
       <div className="relative z-20 lg:flex justify-center items-center mx-5 gap-x-8 lg:mt-10 mt-14 lg:mx-96">
   
-  <div style={{ backgroundImage: "url('./Group 135.svg')" }} className="w-[25vw] h-[10vh] bg-cover bg-center flex items-center justify-center">
-  <p className="text-white text-lg font-bold font-rugen text-[4vh] ">HACKBATTLE</p>
-</div>
+      <button
+    className="flex items-center justify-center no-underline text-white font-normal uppercase transition-all duration-200 ease-in-out"
+  >
+    <svg className="h-[20vh] w-[30vw]"   preserveAspectRatio="xMidYMid meet">
+      <image href="./Group 135.svg" width="100%" height="100%" className="glow-on-hover"/>
+      <text x="50%" y="50%" dx="4" dy="-3" dominantBaseline="middle" textAnchor="middle" fill="white" className="font-rugen text-[5vh]">HACKBATTLE</text>
+    </svg>
+  </button>
 
    
-<button style={{ backgroundImage: "url('./Group 135.svg')" }} className="w-[25vw] h-[10vh] bg-cover bg-center flex items-center justify-center no-underline text-white/80 bg-[#01061B] font-normal uppercase transition-all duration-200 ease-in-out">
-  <p className="text-white text-lg font-bold font-rugen text-[4vh] ">CICADA</p>
-</button>
+<button
+    className="flex items-center justify-center no-underline font-normal uppercase transition-all duration-200 ease-in-out"
+  >
+    <svg className=" h-[20vh] w-[30vw]"   preserveAspectRatio="xMidYMid meet">
+      <image href="./Group 135.svg" width="100%" height="100%" className="glow-on-hover"/>
+      <text x="50%" y="50%" dx="4" dy="-3" dominantBaseline="middle" textAnchor="middle" fill="white" className="font-rugen text-[5vh]">CICADA</text>
+    </svg>
+  </button>
+
 </div>
 
       <div className="absolute bottom-9 z-20  w-full rotate-3 border border-dashed border-gray-400 bg-gradient-to-r from-[#01061B] via-100% to-[#073543]">

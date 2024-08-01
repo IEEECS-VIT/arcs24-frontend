@@ -29,13 +29,8 @@
    
 }
 
-.landing-button {
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.8);
-  background: [#01061B];
-  font-weight: normal;
-  text-transform: uppercase;
-  transition: all 0.2s ease-in-out;
+.glow-on-hover:hover {
+  filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.6));
 }
 
 @layer base {
@@ -43,5 +38,4 @@
     @apply bg-[#01061B] text-white 
   }
 }
-
 
