@@ -25,7 +25,12 @@
 }
 
 .text-overlay span {
-  background: linear-gradient(to left, #01061B ,#01051A, #01061A,#01051B, #01051A);
+  background: linear-gradient(to left, #241438, #01061B ,#01051A, #01061A,#01051B, #01051A, #201132);
+   
+}
+
+.glow-on-hover:hover {
+  filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.6));
 }
 
 @layer base {

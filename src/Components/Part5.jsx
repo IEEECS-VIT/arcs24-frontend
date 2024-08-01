@@ -14,11 +14,18 @@ export default function Part5() {
           <span className='t1 text-blurple'>Price: </span>Rs 200 Only
         </p>
       </div>
-      <img 
-        className='img5 mt-[2vw] ml-[7.5vw] mb-[4vh] w-[85.182291666666668vw] h-[16.321112515802781vh] lg:mb-[8vh] lg:h-[6.826801517067004vh] lg:mt-[9.578002528445005vh] lg:ml-[10.067708333333334vw] lg:w-[35.807291666666664vw] order-2 lg:order-1' 
-        src="ssss.svg" 
-        alt='' 
-      />
+      
+
+<button
+    className="flex items-center justify-center no-underline font-normal uppercase"
+  >
+    <svg className="mt-[2vw] ml-[7.5vw] mb-[4vh] w-[85.182291666666668vw] h-[16.321112515802781vh] lg:mb-[8vh] lg:h-[6.826801517067004vh] lg:mt-[9.578002528445005vh] lg:ml-[10.067708333333334vw] lg:w-[35.807291666666664vw] order-2 lg:order-1 
+        "   preserveAspectRatio="xMidYMid meet">
+      <image href="./reg.svg" width="100%" height="100%" className="glow-on-hover"/>
+      <text x="50%" y="50%" dx="4" dy="-3" dominantBaseline="middle" textAnchor="middle" fill="white" className="font-rugen text-[3vh]">Register Now</text>
+    </svg>
+  </button>
+
     </div>
   );
 }
