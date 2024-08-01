@@ -31,25 +31,25 @@ function Footer() {
               <label htmlFor="name" className="mb-2 flex w-36 items-center gap-4 rounded-xl border-b border-white text-white text-justify justify-center">Name</label>
               <input
                 type="text" id="name" name="name"
-                className="ml-6 mb-2 flex w-full items-center gap-4 rounded-xl border-b border-white text-justify justify-center bg-[#01061B] text-white"
+                className="p-1 ml-6 mb-2 flex w-full items-center gap-4 rounded-xl border-b border-white text-justify justify-center bg-[#01061B] text-white"
                 required
               />
             </div>
-            <div className="mb-4 flex mt-3">
+            <div className="flex mt-1">
               <label htmlFor="message" className="mb-2 flex w-36 items-center gap-4 rounded-xl border-b border-white text-white text-justify justify-center">Message</label>
               <input
                 name="message"
-                className="ml-6 mb-2 flex w-full items-center gap-4 rounded-xl border-b border-white text-justify justify-center bg-[#01061B] text-white"
+                className="p-1 ml-6 mb-2 flex w-full items-center gap-4 rounded-xl border-b border-white text-justify justify-center bg-[#01061B] text-white"
                 required
               />
             </div>
-            <div className="flex mt-3">
+            <div className="flex mt-1">
               <label htmlFor="email" className="mb-2 flex w-36 items-center gap-4 rounded-xl border-b border-white text-white text-justify justify-center">Email-Id</label>
               <input
                 type="email"
                 id="email"
                 name="email"
-                className="ml-6 mb-2 flex w-full items-center gap-4 rounded-xl border-b border-white text-justify justify-center bg-[#01061B] text-white"
+                className="p-1 ml-6 mb-2 flex w-full items-center gap-4 rounded-xl border-b border-white text-justify justify-center bg-[#01061B] text-white"
                 required
               />
             </div>
@@ -119,25 +119,25 @@ function Footer() {
               <label htmlFor="name" className="mb-2 flex w-40 items-center gap-4 rounded-xl border-b border-white text-white text-justify justify-center">Name</label>
               <input
                 type="text" id="name" name="name"
-                className="ml-6 mb-2 flex w-full items-center gap-4 rounded-xl border-b border-white text-justify justify-center bg-[#01061B] text-white"
+                className="p-3 ml-6 mb-2 flex w-full items-center gap-4 rounded-xl border-b border-white text-justify justify-center bg-[#01061B] text-white"
                 required
               />
             </div>
-            <div className="mb-4 flex mt-6">
+            <div className="mb-2 flex mt-2">
               <label htmlFor="message" className="mb-2 flex w-40 items-center gap-4 rounded-xl border-b border-white text-white text-justify justify-center">Message</label>
               <input
                 name="message"
-                className="ml-6 mb-2 flex w-full items-center gap-4 rounded-xl border-b border-white text-justify justify-center bg-[#01061B] text-white"
+                className="p-3 ml-6 mb-2 flex w-full items-center gap-4 rounded-xl border-b border-white text-justify justify-center bg-[#01061B] text-white"
                 required
               />
             </div>
-            <div className="flex mt-6">
+            <div className="flex mt-2">
               <label htmlFor="email" className="mb-2 flex w-40 items-center gap-4 rounded-xl border-b border-white text-white text-justify justify-center">Email-Id</label>
               <input
                 type="email"
                 id="email"
                 name="email"
-                className="ml-6 mb-2 flex w-full items-center gap-4 rounded-xl border-b border-white text-justify justify-center bg-[#01061B] text-white"
+                className="ml-6 mb-2 flex w-full items-center gap-4 rounded-xl border-b border-white text-justify justify-center bg-[#01061B] text-white p-3"
                 required
               />
             </div>
