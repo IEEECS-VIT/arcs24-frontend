@@ -42,28 +42,30 @@ function LandingPage() {
           </span>
         </p>
       </div>
-      <div className="relative z-20 lg:flex justify-center items-center mx-5 gap-x-8 lg:mt-10 mt-14 lg:mx-96">
+      <div className="grid place-items-center lg:flex justify-center items-center lg:gap-x-8 relative w-full z-20 lg:mt-10">
+  <button
+    className="lg:flex items-center justify-center no-underline text-white font-normal uppercase transition-all duration-200 ease-in-out"
+  >
+    <svg className="my-8 lg:my-0 h-[10vh] lg:h-[20vh] lg:w-[30vw] \" preserveAspectRatio="xMidYMid meet">
+      <image href="./Group 135.svg" width="100%" height="100%" className="glow-on-hover"/>
+      <text x="50%" y="50%" dx="4" dy="-3" dominantBaseline="middle" textAnchor="middle" fill="white" className="font-rugen text-[3.5vh] lg:text-[5vh]">HACKBATTLE</text>
+    </svg>
+  </button>
+
+  <button
+    className="lg:flex items-center justify-center no-underline font-normal uppercase transition-all duration-200 ease-in-out"
+  >
+    <svg className="h-[10vh] lg:h-[20vh] lg:w-[30vw]" preserveAspectRatio="xMidYMid meet">
+     
+    <image href="./Group 114.svg" width="100%" height="100%" className="glow-on-hover transform"/>
   
-      <button
-    className="flex items-center justify-center no-underline text-white font-normal uppercase transition-all duration-200 ease-in-out"
-  >
-    <svg className="h-[20vh] w-[30vw]"   preserveAspectRatio="xMidYMid meet">
-      <image href="./Group 135.svg" width="100%" height="100%" className="glow-on-hover"/>
-      <text x="50%" y="50%" dx="4" dy="-3" dominantBaseline="middle" textAnchor="middle" fill="white" className="font-rugen text-[5vh]">HACKBATTLE</text>
+      <text x="50%" y="50%" dx="4" dy="-3" dominantBaseline="middle" textAnchor="middle" fill="white" className="font-rugen text-[3.5vh] lg:text-[5vh]">CICADA</text>
     </svg>
   </button>
-
-   
-<button
-    className="flex items-center justify-center no-underline font-normal uppercase transition-all duration-200 ease-in-out"
-  >
-    <svg className=" h-[20vh] w-[30vw]"   preserveAspectRatio="xMidYMid meet">
-      <image href="./Group 135.svg" width="100%" height="100%" className="glow-on-hover"/>
-      <text x="50%" y="50%" dx="4" dy="-3" dominantBaseline="middle" textAnchor="middle" fill="white" className="font-rugen text-[5vh]">CICADA</text>
-    </svg>
-  </button>
-
 </div>
+
+
+
 
       <div className="absolute bottom-9 z-20  w-full rotate-3 border border-dashed border-gray-400 bg-gradient-to-r from-[#01061B] via-100% to-[#073543]">
         <span className="inline-block whitespace-nowrap font-rugen text-xl text-white text-center select-none pointer-events-none">
