@@ -2,16 +2,16 @@ import React from 'react';
 
 export default function Part5() {
   return (
-    <div className='lg:flex'>
+    <div className='lg:flex mt-[2.5vh]'>
       <div className="content1 ml-[17vw] mt-[4vh] lg:mt-[3.7926675094816686vh] lg:ml-[19.5vw] w-[61.3828125vw] lg:w-[27.799479166666668vw] order-1 lg:order-2">
-        <p className='p1 ml-[5vw] lg:ml-[0] w-[57.3828125vw] lg:w-[27.799479166666668vw] font-source-serif lg:mt-[0.6321112515802781vh] text-[1.463rem] lg:text-4xl font-bold leading-[145%] tracking-[0.3604166666666667vw]'>
-          <span className='t1 text-blurple'>Date: </span>12th June
+        <p className='p1 ml-[5vw] lg:ml-[0] w-[57.3828125vw] lg:w-[27.799479166666668vw] font-source-serif lg:mt-[0.6321112515802781vh] text-[1.463rem] lg:text-3xl font-bold leading-[145%] tracking-[0.3604166666666667vw]'>
+          <span className='t1 text-blurple ml-[2.8vw]'>Date: </span>12th June
         </p>
-        <p className='p1 ml-[7vw] lg:ml-[0] w-[57.3828125vw] lg:w-[27.799479166666668vw] font-source-serif lg:mt-[0.6321112515802781vh] text-2xl lg:text-4xl font-bold leading-[145%] tracking-[0.3604166666666667vw]'>
-          <span className='t1 text-blurple'>Venue: </span>Foodys
+        <p className='p1 ml-[7vw] lg:ml-[0] w-[57.3828125vw] lg:w-[27.799479166666668vw] font-source-serif lg:mt-[0.6321112515802781vh] text-2xl lg:text-3xl font-bold leading-[145%] tracking-[0.3604166666666667vw]'>
+          <span className='t1 text-blurple ml-[2.8vw]'>Venue: </span>Foodys
         </p>
-        <p className='p1 ml-[5vw] lg:ml-[0] w-[77.3828125vw] lg:w-[27.799479166666668vw] font-source-serif lg:mt-[0.6321112515802781vh] text-2xl lg:text-4xl font-bold leading-[145%] tracking-[0.3604166666666667vw]'>
-          <span className='t1 text-blurple'>Price: </span>Rs 200 Only
+        <p className='p1 ml-[5vw] lg:ml-[0] w-[77.3828125vw] lg:w-[27.799479166666668vw] font-source-serif lg:mt-[0.6321112515802781vh] text-2xl lg:text-3xl font-bold leading-[145%] tracking-[0.3604166666666667vw]'>
+          <span className='t1 text-blurple ml-[2.8vw]'>Price: </span>Rs 200 Only
         </p>
       </div>
       
