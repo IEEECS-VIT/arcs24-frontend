@@ -3,7 +3,7 @@ import "../index.css"
 export default function Part4() {
   return (
     <div className='div1 relative m-0 lg:flex lg:mt-[15.6953125vh] lg:ml-[2.2552083333333335vw] lg:mr-[10vw]'>
-      <img className='img10 mt-[5vh] lg:mt-[0vh] ml-[22.5vw] h-[25vh] lg:hidden order-1' src='Group119.svg' alt='' />
+      <img className='img10 mt-[0vh] lg:mt-[0vh] ml-[22.5vw] h-[25vh] lg:hidden order-1' src='Group119.svg' alt='' />
       <div className='d2 mt-[2.5vh] lg:ml-[2.5vw] lg:mt-[2vw] flex order-2 lg:order-1'>
         <img className='img2 ml-[1vw] h-[6.7926675094816686vh] w-[7.2135416666666665vw] lg:h-[8.099873577749683vh] lg:w-[3.958984375vw] lg:m-[0.3255208333333333vw] lg:mr-[0]' src="Group111.svg" alt='' />
         <div className='d6 text-center lg:text-start mt-[8vw] lg:mt-[5.849557522123893vh] w-[81.744791666666668vw] lg:w-[51.744791666666668vw]'>
@@ -16,7 +16,7 @@ export default function Part4() {
         </div>
         <img className='img3 mt-[40vw] lg:mr-[5.90625vw] lg:mt-[37.92667509481669vh] h-[6.7926675094816686vh] w-[7.2135416666666665vw] lg:h-[8.099873577749683vh] lg:w-[3.958984375vw]' src="/Group112.svg" alt='' />
       </div>
-      <div className='order-3 lg:order-2 flex'>
+      <div className=' order-3 lg:order-2 flex'>
       <img className='img1 absolute z-5 mt-0 ml-[2vw] lg:ml-[4vw] h-[0] w-[0] lg:h-[51.45891276864728vh] lg:w-[28vw]' src="Group222-1.png" alt='' />
       <img className='imh26 relative h-0 z=15 ml-[5.5vw] lg:h-[30vh] mt-[9vh]' src='Group171-1.png'></img> 
       <img className='img25 relative h-0 z-10 ml-[0vw] lg:h-[20vw] lg:mt-[5vh]' src='Group171.png'></img> 
