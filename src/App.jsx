@@ -24,7 +24,7 @@ function App() {
       <Why />
       <Happie />
       <Faq />
-      <Footer />
+      {/* <Footer /> */}
     </main>
   );
 }
