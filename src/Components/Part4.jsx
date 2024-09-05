@@ -35,7 +35,7 @@ export default function Part4() {
           </p> */}
           <p className="p2 m-0 mt-[0.5vw] font-source-serif text-sm font-semibold leading-[151%] tracking-[0.26vw] lg:ml-0 lg:text-3xl text-purple-400">
             "Not all who wander are lost… some are hunted." - team 3310
-          </p>
+        </p>
         </div>
 
         {/* Right Icon Image */}

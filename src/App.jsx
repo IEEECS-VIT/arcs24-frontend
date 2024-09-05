@@ -14,13 +14,13 @@ import WhatIsArcs from "./Components/whatisarcs";
 
 function App() {
   return (
-    <main>
+    <main className="overflow-x-hidden">
       <Navbar />
       <LandingPage />
-      <WhatIsArcs/>
+      <WhatIsArcs />
       <Yooho />
-      <Combined/>
-      <Combined2/>
+      <Combined />
+      <Combined2 />
       <Why />
       <Happie />
       <Faq />
