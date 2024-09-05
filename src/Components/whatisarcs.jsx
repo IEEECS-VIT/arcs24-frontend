@@ -21,7 +21,7 @@ const WhatIsArcs = () => {
       </div>
 
       {/* Text content section */}
-      <div className="flex-2 flex-col relative p-2 md:p-4 lg:p-0 order-2 lg:order-1 lg:flex lg:flex-col lg:justify-end lg:items-end lg:pl-10 md:ml-10 lg:ml-20">
+      <div className="flex-2 flex-col relative p-2 md:p-4 lg:p-0 order-2 lg:order-1 lg:flex lg:flex-col lg:justify-end lg:items-end lg:pl-10 md:ml-10 lg:ml-20 md:mt-[150px]">
         <div className='flex flex-col'>
           <h1 className="text-3xl md:text-5xl lg:text-4xl font-bold mb-6 md:mb-8 text-nowrap font-rugen">
             WHAT IS ARCS?

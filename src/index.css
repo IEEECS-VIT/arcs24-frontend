@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "Rugen";
-  src: url("src/fonts/RugenExpanded.ttf") format("truetype");
+  src: url("fonts/RugenExpanded.ttf") format("truetype");
 }
 @tailwind base;
 @tailwind components;
@@ -11,21 +11,63 @@
 .animated-gradient {
   /* background: linear-gradient(to left, #160d25 , #1b0f2c, #110c24,#150727, #190a2b,#210f37,#1e1032,  #12092f);
    */
-   background: linear-gradient(to left, #241438, #01061B ,#01051A, #01061A,#01051B, #01051A, #241438);
-   min-height: 100vh;
-   
+  background: linear-gradient(
+    to left,
+    #241438,
+    #01061b,
+    #01051a,
+    #01061a,
+    #01051b,
+    #01051a,
+    #241438
+  );
+  min-height: 100vh;
 }
 
-.animated-gradient-mobile{
-  background: linear-gradient(to left, #290C2E,#02061B, #01061A,#01051B, #01051A, #290C2E);
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
-.highlight{
-  background: linear-gradient(to right, #7367CD, #6F5FCB, #654DC8, #5C39C5, #542AC2, #6C5BCA, #7D7CD0, #7A6ACF);
+.animated-gradient-mobile {
+  background: linear-gradient(
+    to left,
+    #290c2e,
+    #02061b,
+    #01061a,
+    #01051b,
+    #01051a,
+    #290c2e
+  );
+}
+
+.highlight {
+  background: linear-gradient(
+    to right,
+    #7367cd,
+    #6f5fcb,
+    #654dc8,
+    #5c39c5,
+    #542ac2,
+    #6c5bca,
+    #7d7cd0,
+    #7a6acf
+  );
 }
 
 .text-overlay span {
-  background: linear-gradient(to left, #241438, #01061B ,#01051A, #01061A,#01051B, #01051A, #201132);
+  background: linear-gradient(
+    to left, #241438,
+    #01061b,
+    #01051a,
+    #01061a,
+    #01051b,
+    #01051a
+  , #201132);
    
 }
 
@@ -34,12 +76,10 @@
 }
 
 @layer base {
-  body{
-    @apply bg-[#01061B] text-white 
+  body {
+    @apply bg-[#01061B] text-white;
   }
 }
-
-
 @keyframes arrowAnimation {
   0% {
     transform: translateX(0);
