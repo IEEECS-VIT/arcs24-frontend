@@ -7,14 +7,9 @@ const HackFaqItems = [
     title: "What is ARCS?",
     content: (
       <>
-        ARCS is the flagship event of IEEE-CS which has Hackbattle and Cicada
-        <a
-          href="#"
-          className="text-blue-700 underline underline-offset-2 dark:text-blue-600"
-        >
-          documentation
-        </a>{" "}
-        for additional information.
+        ARCS is the flagship event of IEEE-CS which has Hackbattle and Cicada as
+        its two main events. It is a platform for students to showcase their
+        technical skills and knowledge.
       </>
     ),
   },
@@ -22,14 +17,9 @@ const HackFaqItems = [
     title: "Where can we register?",
     content: (
       <>
-        Reach out to our dedicated support team via email at{" "}
-        <a
-          href="#"
-          className="text-blue-700 underline underline-offset-2 dark:text-blue-600"
-        >
-          support@example.com
-        </a>{" "}
-        or call our toll-free number at 1-800-123-4567 during business hours.
+        Registrations will be open soon, stay tuned to our social media handles
+        for updates. We will be updating the registration links on our website
+        as well.
       </>
     ),
   },
@@ -37,15 +27,8 @@ const HackFaqItems = [
     title: "When are the events?",
     content: (
       <>
-        Please refer to our{" "}
-        <a
-          href="#"
-          className="text-blue-700 underline underline-offset-2 dark:text-blue-600"
-        >
-          refund policy page
-        </a>{" "}
-        on the website for detailed information regarding eligibility,
-        timeframes, and the process for requesting a refund.
+        ARCS will be hosted during pre-gravitas , the dates for the same will be
+        announced soon.
       </>
     ),
   },
@@ -53,15 +36,8 @@ const HackFaqItems = [
     title: "Will OD's be provided to participants?",
     content: (
       <>
-        Please refer to our{" "}
-        <a
-          href="#"
-          className="text-blue-700 underline underline-offset-2 dark:text-blue-600"
-        >
-          refund policy page
-        </a>{" "}
-        on the website for detailed information regarding eligibility,
-        timeframes, and the process for requesting a refund.
+        Yes OD's will be provided to all participants of both the events for the
+        whole duration of the event.
       </>
     ),
   },
