@@ -5,6 +5,7 @@ const AccordionItem = ({ title, content }) => {
 
   return (
     <div className="mb-2">
+      
       <button
         type="button"
         className={`mb-2 flex w-full items-center justify-between gap-4 ${!isExpanded && "rounded-xl border-b border-white"} bg-transparent p-4 text-left`}

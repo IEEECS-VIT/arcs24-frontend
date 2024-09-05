@@ -61,17 +61,37 @@
 
 .text-overlay span {
   background: linear-gradient(
-    to left,
+    to left, #241438,
     #01061b,
     #01051a,
     #01061a,
     #01051b,
     #01051a
-  );
+  , #201132);
+   
+}
+
+.glow-on-hover:hover {
+  filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.6));
 }
 
 @layer base {
   body {
     @apply bg-[#01061B] text-white;
   }
+}
+@keyframes arrowAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animated-arrow {
+  animation: arrowAnimation 2s ease-in-out infinite;
 }
