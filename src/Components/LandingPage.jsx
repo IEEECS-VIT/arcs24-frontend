@@ -46,24 +46,29 @@ function LandingPage() {
             className="\\ my-8 h-[10vh] lg:my-0 lg:h-[20vh] lg:w-[30vw]"
             preserveAspectRatio="xMidYMid meet"
           >
-            <image
-              href="./Group 135.svg"
-              width="100%"
-              height="100%"
-              className="glow-on-hover"
-            />
-            <text
-              x="50%"
-              y="50%"
-              dx="4"
-              dy="-3"
-              dominantBaseline="middle"
-              textAnchor="middle"
-              fill="white"
-              className="font-rugen text-[3.5vh] lg:text-[5vh]"
+            <a
+              href="https://gravitas.vit.ac.in/events/e748d506-415c-4166-b45f-7485c25406aa"
+              target="_blank"
             >
-              HACKBATTLE
-            </text>
+              <image
+                href="./Group 135.svg"
+                width="100%"
+                height="100%"
+                className="glow-on-hover"
+              />
+              <text
+                x="50%"
+                y="50%"
+                dx="4"
+                dy="-3"
+                dominantBaseline="middle"
+                textAnchor="middle"
+                fill="white"
+                className="font-rugen text-[3.5vh] lg:text-[5vh]"
+              >
+                HACKBATTLE
+              </text>
+            </a>
           </svg>
         </button>
 
@@ -72,25 +77,30 @@ function LandingPage() {
             className="h-[10vh] lg:h-[20vh] lg:w-[30vw]"
             preserveAspectRatio="xMidYMid meet"
           >
-            <image
-              href="./Group 114.svg"
-              width="100%"
-              height="100%"
-              className="glow-on-hover transform"
-            />
-
-            <text
-              x="50%"
-              y="50%"
-              dx="4"
-              dy="-3"
-              dominantBaseline="middle"
-              textAnchor="middle"
-              fill="white"
-              className="font-rugen text-[3.5vh] lg:text-[5vh]"
+            <a
+              href="https://gravitas.vit.ac.in/events/5387f16e-b092-470a-b918-e89307526ebf"
+              target="_blank"
             >
-              CICADA
-            </text>
+              <image
+                href="./Group 114.svg"
+                width="100%"
+                height="100%"
+                className="glow-on-hover transform"
+              />
+
+              <text
+                x="50%"
+                y="50%"
+                dx="4"
+                dy="-3"
+                dominantBaseline="middle"
+                textAnchor="middle"
+                fill="white"
+                className="font-rugen text-[3.5vh] lg:text-[5vh]"
+              >
+                CICADA
+              </text>
+            </a>
           </svg>
         </button>
       </div>
