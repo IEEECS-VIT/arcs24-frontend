@@ -81,8 +81,8 @@ const Faq = () => {
 
 const InfiniteMarquee = () => {
   return (
-    <div className="absolute bottom-0 left-0 w-full overflow-hidden " >
-      <div className="marquee-container-left  whitespace-nowrap font-rugen text-5xl">
+    <div className="absolute bottom-0 left-0 w-full overflow-hidden">
+      <div className="marquee-container-right whitespace-nowrap font-rugen text-3xl sm:text-4xl md:text-5xl">
         <div className="marquee-content inline-block">
           {Array.from({ length: 5 }).map((_, i) => (
             <span key={i} className="px-4">
@@ -90,7 +90,7 @@ const InfiniteMarquee = () => {
             </span>
           ))}
         </div>
-        <div className=" marquee-content inline-block">
+        <div className="marquee-content inline-block">
           {Array.from({ length: 5 }).map((_, i) => (
             <span key={i} className="px-4">
               DOUBLE THE EVENTS! DOUBLE THE FUN!
