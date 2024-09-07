@@ -81,7 +81,7 @@ const Faq = () => {
 
 const InfiniteMarquee = () => {
   return (
-    <div className="absolute bottom-0 left-0 w-full overflow-hidden">
+    <div className="absolute bottom-0 left-0 w-full overflow-hidden" id="faqs">
       <div className="marquee-container-right whitespace-nowrap font-rugen text-3xl sm:text-4xl md:text-5xl">
         <div className="marquee-content inline-block">
           {Array.from({ length: 5 }).map((_, i) => (
