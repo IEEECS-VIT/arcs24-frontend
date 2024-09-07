@@ -3,8 +3,8 @@ import React from "react";
 export default function Part2() {
   return (
     <div className="mt-[2.5vh] md:flex">
-      <div className="content1 flex-col justify-center ml-[17vw] mt-[4vh] w-[61.3828125vw] md:ml-[8.5vw] md:mt-[5.7926675094816686vh] md:w-[27.799479166666668vw]">
-        <p className="p1 w-[87.3828125vw] font-source-serif text-[1.463rem] font-bold leading-[145%]  tracking-[0.3604166666666667vw] md:ml-[0] md:mt-[0.6321112515802781vh] md:w-[27.799479166666668vw] md:text-xl">
+      <div className="content1 flex-col sm:ml-[28.5vw] justify-center ml-[17vw] mt-[4vh] w-[61.3828125vw] md:ml-[8.5vw] md:mt-[5.7926675094816686vh] md:w-[27.799479166666668vw]">
+        <p className="p1 w-[87.3828125vw]  font-source-serif text-[1.463rem] font-bold leading-[145%]  tracking-[0.3604166666666667vw] md:ml-[0] md:mt-[0.6321112515802781vh] md:w-[27.799479166666668vw] md:text-xl">
           <span className="t1 text-blurple">Date: </span>25-26th September
         </p>
         <p className="p1 ml-[1.5vw]  w-[87.3828125vw] font-source-serif text-2xl font-bold leading-[145%] tracking-[0.3604166666666667vw] md:ml-[0] md:mt-[0.6321112515802781vh] md:w-[27.799479166666668vw] md:text-xl">

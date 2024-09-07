@@ -3,8 +3,8 @@ import React from "react";
 export default function Part5() {
   return (
     <div className="mt-[0vh] md:flex">
-      <div className="content1 order-1 ml-[17vw] mt-[0vh] w-[61.3828125vw] md:order-2 md:ml-[19.5vw] md:mt-[3.7926675094816686vh] md:w-[27.799479166666668vw]">
-        <p className="p1   w-[87.3828125vw] font-source-serif text-[1.463rem] font-bold leading-[145%] tracking-[0.3604166666666667vw] md:ml-[0] md:mt-[0.6321112515802781vh] md:w-[27.799479166666668vw] md:text-xl">
+      <div className="content1 order-1 ml-[17vw] mt-[0vh] w-[61.3828125vw] sm:ml-[28.5vw] md:order-2 md:ml-[19.5vw] md:mt-[3.7926675094816686vh] md:w-[27.799479166666668vw]">
+        <p className="p1   w-[87.3828125vw]  font-source-serif text-[1.463rem] font-bold leading-[145%] tracking-[0.3604166666666667vw] md:ml-[0] md:mt-[0.6321112515802781vh] md:w-[27.799479166666668vw] md:text-xl">
           <span className="t1 ml-[2.8vw] text-blurple">Date: </span>22nd
           September 
         </p>

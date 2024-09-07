@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Part1() {
   return (
-    <div className="div1 relative m-0 h-full md:ml-[2.2552083333333335vw] md:mt-0 md:flex">
+    <div className="div1 relative m-0 h-full md:ml-[2.2552083333333335vw] sm:ml-[5vw] md:mt-0 md:flex">
       <img
         className="img1 z-5 absolute ml-[2vw] mt-0 h-[0] w-[0] md:ml-[4vw] lg:h-[51.45891276864728vh] lg:w-[27vw] lg:mt-[0] md:h-[41vh] md:w-[27vw] md:mt-[12vh]"
         src="Group222.png"
@@ -17,7 +17,7 @@ export default function Part1() {
         src="Group141.png"
       ></img>
       <img
-        className="img10 ml-[22.5vw] mt-[0vh] h-[25vh] md:hidden"
+        className="img10  ml-[20.5vw] sm:ml-[30vw] mt-[0vh] h-[25vh] md:hidden"
         src="Group117.svg"
         alt=""
       />
