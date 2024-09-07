@@ -1,25 +1,57 @@
-import React from 'react';
+import React from "react";
 
 export default function Part1() {
   return (
-    <div className='div1 relative h-full m-0 lg:flex lg:mt-0 lg:ml-[2.2552083333333335vw]'>
-      <img className='img1 absolute z-5 mt-0 ml-[2vw] lg:ml-[4vw] h-[0] w-[0] lg:h-[51.45891276864728vh] lg:w-[27vw]' src="Group222.png" alt='' />
-      <img className='img25 relative h-0 z-10 ml-[2.5vw] lg:h-[25vw]' src='Group223.png'></img>
-      <img className='imh26 relative h-0 z=15 mr-[5vw] lg:h-[35vh] mt-[6vh]' src='Group141.png'></img>   
-      <img className='img10 mt-[0vh] ml-[22.5vw] h-[25vh] lg:hidden' src='Group117.svg' alt='' />
-      <div className='d2 mt-[2.5vh] lg:ml-[5vw] lg:mt-[2vw] flex '>
-        <img className='img2 ml-[1vw] h-[6.7926675094816686vh] w-[7.2135416666666665vw] lg:h-[8.099873577749683vh] lg:w-[3.958984375vw] lg:m-[0.3255208333333333vw] lg:mr-[0]' src="Group111.svg" alt='' />
-        <div className='d6 text-center lg:text-start mt-[8vw] lg:mt-[5.849557522123893vh] w-[81.744791666666668vw] lg:w-[51.744791666666668vw]'>
-          <p className='p2 lg:ml-[0] text-sm lg:text-3xl font-source-serif font-semibold tracking-[0.2604166666666667vw] m-0'>Lorem ipsum dolor sit amet</p>
-          <p className='p2 lg:ml-[0] text-sm lg:text-3xl font-source-serif font-semibold leading-[151%] tracking-[0.2604166666666667vw] mt-[0.5vw] m-0'>consectetur. Eget sem cursus</p>
-          <p className='p2 text-sm lg:text-3xl font-source-serif font-semibold leading-[151%] tracking-[0.2604166666666667vw] mt-[0.5vw] m-0'>interdum in eros. Iaculis iaculis</p>
-          <p className='p2 text-sm lg:text-3xl font-source-serif font-semibold leading-[151%] tracking-[0.2604166666666667vw] mt-[0.5vw] m-0'>turpis sit enim dictum interdum quis.</p>
-          <p className='p2 lg:ml-[0] text-sm lg:text-3xl font-source-serif font-semibold leading-[151%] mt-[0.5vw] tracking-[0.2604166666666667vw] m-0'>Tortor sed et sed pretium ultrices. Et</p>
-          <p className='p2 lg:ml-[0] text-sm lg:text-3xl font-source-serif font-semibold leading-[151%] mt-[0.5vw] tracking-[0.2604166666666667vw] m-0'>sit amet egestas <span className='t1 text-blurple'>aliquam nunc</span>.</p>
-        </div>  
-        <img className='img3 mt-[40vw] lg:mr-[5.25625vw] lg:mt-[37.92667509481669vh] h-[6.7926675094816686vh] w-[7.2135416666666665vw] lg:h-[8.099873577749683vh] lg:w-[3.958984375vw]' src="/Group112.svg" alt='' />
+    <div className="div1 relative m-0 h-full md:ml-[2.2552083333333335vw] md:mt-0 md:flex">
+      <img
+        className="img1 z-5 absolute ml-[2vw] mt-0 h-[0] w-[0] md:ml-[4vw] lg:h-[51.45891276864728vh] lg:w-[27vw] lg:mt-[0] md:h-[41vh] md:w-[27vw] md:mt-[12vh]"
+        src="Group222.png"
+        alt=""
+      />
+      <img
+        className="img25 relative z-10 ml-[2.5vw] h-0 lg:h-[25vw] md:h-[30vw] md:w-[25vw] md:mt-[12vh] lg:mt-[0]"
+        src="Group223.png"
+      ></img>
+      <img  
+        className="imh26 z=15 relative mr-[5vw] mt-[8vh]  lg:mt-[6vh] sm:mt-[0vh] h-0 lg:h-[35vh] md:h-[30vh] md:mt-[15vh]"
+        src="Group141.png"
+      ></img>
+      <img
+        className="img10 ml-[22.5vw] mt-[0vh] h-[25vh] md:hidden"
+        src="Group117.svg"
+        alt=""
+      />
+      <div className="d2 mt-[2.5vh] flex md:ml-[5vw] sm:ml-[10vw] md:mt-[2vw]">
+        <img
+          className="img2 ml-[1vw] h-[6.7926675094816686vh] w-[7.2135416666666665vw] md:m-[0.3255208333333333vw] md:mr-[0] md:h-[8.099873577749683vh] md:w-[3.958984375vw]"
+          src="Group111.svg"  
+          alt=""
+
+        />
+        <div className="d6 mt-[8vw]  w-[81.744791666666668vw] sm:w-[50vw] text-center md:mt-[5.849557522123893vh] md:w-[51.744791666666668vw] md:text-start lg:text-[1.875rem] md:text-[1.5rem] sm:text-[0.8rem]">
+          <p className="p2 m-0 font-source-serif text-md font-semibold tracking-[0.2604166666666667vw] md:ml-[0] md:text-3xl">
+            Join the adrenaline-pumping 36-hour
+          </p>
+          <p className="p2 m-0 font-source-serif text-md font-semibold tracking-[0.2604166666666667vw] md:ml-[0] md:text-3xl">
+            HackBattle by IEEECS-VIT, where
+          </p>
+          <p className="p2 m-0 mt-[0.5vw] font-source-serif text-md font-semibold leading-[151%] tracking-[0.2604166666666667vw] md:ml-[0] md:text-3xl">
+            tech innovators gather for
+          </p>
+          <p className="p2 m-0 mt-[0.5vw] font-source-serif text-md font-semibold leading-[151%] tracking-[0.2604166666666667vw] md:ml-[0] md:text-3xl">
+            groundbreaking challenges, keynote
+          </p>
+          <p className="p2 m-0 mt-[0.5vw] font-source-serif text-md font-semibold leading-[151%] tracking-[0.2604166666666667vw] md:text-3xl">
+            sessions, and engaging activities that ignite creativity and drive
+            innovation .
+          </p>
+        </div>
+        <img
+          className="img3 mt-[40vw] sm:mt-[22.5vh] h-[6.7926675094816686vh] w-[7.2135416666666665vw] md:mr-[5.25625vw] md:mt-[37.92667509481669vh] md:h-[8.099873577749683vh] md:w-[3.958984375vw]"
+          src="/Group112.svg"
+          alt=""
+        />
       </div>
-        
     </div>
   );
 }

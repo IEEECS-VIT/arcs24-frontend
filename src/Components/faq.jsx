@@ -1,102 +1,44 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import Accordion from "./accordion";
 import "../index.css";
-
-const CicadaFaqItems = [
-  {
-    title: "What Cicada are supported?",
-    content: (
-      <>
-        Our website is optimized for the latest versions of Chrome, Firefox,
-        Safari, and Edge. Check our
-        <a
-          href="#"
-          className="text-blue-700 underline underline-offset-2 dark:text-blue-600"
-        >
-          documentation
-        </a>
-        for additional information.
-      </>
-    ),
-  },
-  {
-    title: "How can I contact customer support?",
-    content: (
-      <>
-        Reach out to our dedicated support team via email at
-        <a
-          href="#"
-          className="text-blue-700 underline underline-offset-2 dark:text-blue-600"
-        >
-          support@example.com
-        </a>
-        or call our toll-free number at 1-800-123-4567 during business hours.
-      </>
-    ),
-  },
-  {
-    title: "What is the refund policy?",
-    content: (
-      <>
-        Please refer to our
-        <a
-          href="#"
-          className="text-blue-700 underline underline-offset-2 dark:text-blue-600"
-        >
-          refund policy page
-        </a>
-        on the website for detailed information regarding eligibility,
-        timeframes, and the process for requesting a refund.
-      </>
-    ),
-  },
-];
+import "../ieeecs.css";
 
 const HackFaqItems = [
   {
-    title: "What browsers are supported?",
+    title: "What is ARCS?",
     content: (
       <>
-        Our website is optimized for the latest versions of Chrome, Firefox,
-        Safari, and Edge. Check our
-        <a
-          href="#"
-          className="text-blue-700 underline underline-offset-2 dark:text-blue-600"
-        >
-          documentation
-        </a>
-        for additional information.
+        ARCS is the flagship event of IEEE-CS which has Hackbattle and Cicada as
+        its two main events. It is a platform for students to showcase their
+        technical skills and knowledge.
       </>
     ),
   },
   {
-    title: "How can I contact customer support?",
+    title: "Where can we register?",
     content: (
       <>
-        Reach out to our dedicated support team via email at
-        <a
-          href="#"
-          className="text-blue-700 underline underline-offset-2 dark:text-blue-600"
-        >
-          support@example.com
-        </a>
-        or call our toll-free number at 1-800-123-4567 during business hours.
+        Registrations will be open soon, stay tuned to our social media handles
+        for updates. We will be updating the registration links on our website
+        as well.
       </>
     ),
   },
   {
-    title: "What is the refund policy?",
+    title: "When are the events?",
     content: (
       <>
-        Please refer to our
-        <a
-          href="#"
-          className="text-blue-700 underline underline-offset-2 dark:text-blue-600"
-        >
-          refund policy page
-        </a>
-        on the website for detailed information regarding eligibility,
-        timeframes, and the process for requesting a refund.
+        ARCS will be hosted during pre-gravitas, the dates for the same will be
+        announced soon.
+      </>
+    ),
+  },
+  {
+    title: "Will OD's be provided to participants?",
+    content: (
+      <>
+        Yes, OD's will be provided to all participants of both the events for
+        the whole duration of the event.
       </>
     ),
   },
@@ -104,9 +46,14 @@ const HackFaqItems = [
 
 const Faq = () => {
   const [selected, setSelected] = useState("HackBattle");
+  const [activeIndex, setActiveIndex] = useState(null); // State to track the active FAQ
 
   const handleChange = (event) => {
     setSelected(event.target.value);
+  };
+
+  const handleAccordionClick = (index) => {
+    setActiveIndex(index === activeIndex ? null : index); // Toggle the active FAQ
   };
 
   const getItems = () => {
@@ -117,43 +64,40 @@ const Faq = () => {
   };
 
   return (
-    <div className="animated-gradient flex min-h-screen w-full flex-col items-center justify-around p-2 sm:p-4 md:flex-row md:p-10">
+    <div className="animated-gradient relative flex min-h-screen w-full flex-col items-center justify-around p-2 text-2xl sm:p-4 md:flex-row md:p-10">
       <div className="flex flex-col gap-4">
         <p className="font-rugen text-7xl text-[#F7F6F3]">FAQS</p>
-        <div className="flex items-center justify-center gap-2">
-          <label>
-            <input
-              type="radio"
-              name="faq"
-              value="HackBattle"
-              checked={selected === "HackBattle"}
-              onChange={handleChange}
-              className="hidden"
-            />
-            <span
-              className={`cursor-pointer p-2 ${selected === "HackBattle" ? "bg-purple-600 text-[#F7F6F3]" : ""} rounded-xl border-2 border-purple-600 text-base`}
-            >
-              HackBattle
+        <div className="flex items-center justify-center gap-2"></div>
+      </div>
+      <Accordion
+        items={getItems()}
+        activeIndex={activeIndex}
+        onClick={handleAccordionClick}
+      />
+      <InfiniteMarquee />
+    </div>
+  );
+};
+
+const InfiniteMarquee = () => {
+  return (
+    <div className="absolute bottom-0 left-0 w-full overflow-hidden " >
+      <div className="marquee-container-left  whitespace-nowrap font-rugen text-5xl">
+        <div className="marquee-content inline-block">
+          {Array.from({ length: 5 }).map((_, i) => (
+            <span key={i} className="px-4">
+              DOUBLE THE EVENTS! DOUBLE THE FUN!
             </span>
-          </label>
-          <label>
-            <input
-              type="radio"
-              name="faq"
-              value="Cicada"
-              checked={selected === "Cicada"}
-              onChange={handleChange}
-              className="hidden"
-            />
-            <span
-              className={`cursor-pointer p-2 ${selected === "Cicada" ? "border-2 border-purple-600 bg-purple-600 text-[#F7F6F3]" : "border-2 border-purple-600"} rounded-xl text-base`}
-            >
-              Cicada
+          ))}
+        </div>
+        <div className=" marquee-content inline-block">
+          {Array.from({ length: 5 }).map((_, i) => (
+            <span key={i} className="px-4">
+              DOUBLE THE EVENTS! DOUBLE THE FUN!
             </span>
-          </label>
+          ))}
         </div>
       </div>
-      <Accordion items={getItems()} />
     </div>
   );
 };
