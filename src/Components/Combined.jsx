@@ -14,7 +14,7 @@ export default function Combined() {
       </div>
       
       <div className="relative z-10 ">
-        <div className=" absolute lg:mt-[15vh]">
+        <div className="absolute lg:mt-[15vh]">
           <Part1 />
           <Part2 />
         </div>

@@ -95,3 +95,7 @@
 .animated-arrow {
   animation: arrowAnimation 2s ease-in-out infinite;
 }
+
+.clamp-complete {
+  font-size: clamp(13.5px, 25px); /* Adjust these values to fit your design */
+} 
