@@ -1,6 +1,6 @@
 function LandingPage() {
   return (
-    <div className="relative h-screen overflow-hidden bg-[#01061B]">
+    <div className="relative h-screen overflow-hidden bg-[#01061B]" id="hero">
       <div className="absolute inset-0 z-0">
         <img
           className="pointer-events-none absolute -left-6 bottom-60 z-10 hidden select-none lg:block lg:w-5/12"
@@ -104,7 +104,7 @@ function LandingPage() {
           </svg>
         </button>
       </div>
-      <div className="absolute bottom-9 z-20 w-full sm:rotate-3 rotate-[4deg] border border-dashed border-gray-400 bg-gradient-to-r from-[#01061B] via-100% to-[#073543]">
+      <div className="absolute bottom-9 z-20 w-full rotate-[4deg] border border-dashed border-gray-400 bg-gradient-to-r from-[#01061B] via-100% to-[#073543] sm:rotate-3">
         <div className="overflow-hidden">
           <div className="marquee-container-left whitespace-nowrap font-rugen text-base sm:text-2xl">
             <div className="marquee-content inline-block">
@@ -128,7 +128,7 @@ function LandingPage() {
           </div>
         </div>
       </div>
-      <div className="absolute bottom-9 z-20 w-full sm:-rotate-3 -rotate-[4deg] bg-gradient-to-r from-[#9F9DFF] via-[#682FED] to-[#9070f8] opacity-90 backdrop-opacity-15">
+      <div className="absolute bottom-9 z-20 w-full -rotate-[4deg] bg-gradient-to-r from-[#9F9DFF] via-[#682FED] to-[#9070f8] opacity-90 backdrop-opacity-15 sm:-rotate-3">
         <div className="overflow-hidden">
           <div className="marquee-container-right whitespace-nowrap font-rugen text-base sm:text-2xl">
             <div className="marquee-content inline-block">

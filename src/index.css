@@ -24,9 +24,7 @@
   min-height: 100vh;
 }
 
-.nav-mob {
-  background: linear-gradient(to left, #241438, #01061b, #241438);
-}
+
 
 .navbar-transparent {
   background-color: transparent;
