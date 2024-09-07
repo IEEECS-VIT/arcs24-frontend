@@ -16,6 +16,16 @@
    
 }
 
+.nav-mob {
+  background: linear-gradient(to left, #241438, #01061B , #241438);
+   
+}
+
+.navbar-transparent {
+  background-color: transparent;
+}
+
+
 .animated-gradient-mobile{
   background: linear-gradient(to left, #290C2E,#02061B, #01061A,#01051B, #01051A, #290C2E);
 }
