@@ -24,20 +24,25 @@
   min-height: 100vh;
 }
 
-
 .nav-mob {
-  background: linear-gradient(to left, #241438, #01061B , #241438);
-   
+  background: linear-gradient(to left, #241438, #01061b, #241438);
 }
 
 .navbar-transparent {
   background-color: transparent;
 }
 
-
-.animated-gradient-mobile{
-  background: linear-gradient(to left, #290C2E,#02061B, #01061A,#01051B, #01051A, #290C2E);
-
+.animated-gradient-mobile {
+  background: linear-gradient(
+    to left,
+    #290c2e,
+    #02061b,
+    #01061a,
+    #01051b,
+    #01051a,
+    #290c2e
+  );
+}
 @keyframes scroll {
   0% {
     transform: translateX(0);
@@ -45,7 +50,6 @@
   100% {
     transform: translateX(-50%);
   }
-
 }
 
 .animated-gradient-mobile {
@@ -76,14 +80,15 @@
 
 .text-overlay span {
   background: linear-gradient(
-    to left, #241438,
+    to left,
+    #241438,
     #01061b,
     #01051a,
     #01061a,
     #01051b,
-    #01051a
-  , #201132);
-   
+    #01051a,
+    #201132
+  );
 }
 
 .glow-on-hover:hover {
@@ -113,4 +118,4 @@
 
 .clamp-complete {
   font-size: clamp(13.5px, 25px); /* Adjust these values to fit your design */
-} 
+}
