@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 export default function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
@@ -7,8 +7,23 @@ export default function Navbar() {
     setShowMenu(!showMenu);
   }
 
+
+  useEffect(() => {
+    if (showMenu) {
+      document.body.style.marginTop = "200px"; 
+    } else {
+      document.body.style.marginTop = "0"; 
+    }
+
+    
+    return () => {
+      document.body.style.marginTop = "0";
+    };
+  }, [showMenu]);
+
   return (
     <>
+      
       <div className="fixed top-0 z-50 hidden items-center justify-center px-48 pt-4 md:flex md:w-screen">
         <img src="navbar.svg" className="w-full" alt="Navbar"></img>
         <nav className="absolute top-0 ml-[30vw] w-full px-48 pt-4">
@@ -36,10 +51,42 @@ export default function Navbar() {
           </ul>
         </nav>
       </div>
+
+      
       <div className="fixed top-0 z-50 flex w-full items-center justify-between px-4 pt-4 md:hidden">
-        <img src="logo.svg" alt="Logo" className="h-8" />{" "}
-        <img src="menu.svg" alt="Menu" className="h-8" onClick={toggleMenu} />{" "}
+        <img src="logo.svg" alt="Logo" className="h-8" />
+        <img src="menu.svg" alt="Menu" className="h-8 cursor-pointer" onClick={toggleMenu} />
       </div>
+
+      
+      {showMenu && (
+        <div className="absolute top-12 left-0 z-40 w-full bg-[#01061B] text-white md:hidden">
+          <nav className="px-4 py-2">
+            <ul className="my-[2vh] space-y-6">
+              <li>
+                <a href="#" className="block font-rugen text-base text-white text-center">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="#" className="block font-rugen text-base text-white text-center">
+                  About
+                </a>
+              </li>
+              <li>
+                <a href="#" className="block font-rugen text-base text-white text-center">
+                  FAQ
+                </a>
+              </li>
+              <li>
+                <a href="#" className="block font-rugen text-base text-white text-center">
+                  Contact Us
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      )}
     </>
   );
 }
