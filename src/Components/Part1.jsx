@@ -1,9 +1,16 @@
 import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Part1() {
+  AOS.init();
   return (
-
-    <div className="div1 relative m-0 h-full md:ml-[2.2552083333333335vw] sm:ml-[5vw] md:mt-0 md:flex" id="events"
+    <div
+      className="div1 relative m-0 h-full sm:ml-[5vw] md:ml-[2.2552083333333335vw] md:mt-0 md:flex"
+      id="events"
+      data-aos="fade-right"
+      data-aos-duration="1000"
+    >
       <img
         className="img1 z-5 absolute ml-[2vw] mt-0 h-[0] w-[0] md:ml-[4vw] md:mt-[12vh] md:h-[41vh] md:w-[27vw] lg:mt-[0] lg:h-[51.45891276864728vh] lg:w-[27vw]"
         src="Group222.png"
@@ -18,7 +25,7 @@ export default function Part1() {
         src="Group141.png"
       ></img>
       <img
-        className="img10  ml-[20.5vw] sm:ml-[30vw] mt-[0vh] h-[25vh] md:hidden"
+        className="img10 ml-[20.5vw] mt-[0vh] h-[25vh] sm:ml-[30vw] md:hidden"
         src="Group117.svg"
         alt=""
       />
@@ -28,7 +35,7 @@ export default function Part1() {
           src="Group111.svg"
           alt=""
         />
-        <div className="d6 mt-[8vw] w-[81.744791666666668vw] text-center sm:w-[50vw] sm:text-[0.8rem] md:mt-[5.849557522123893vh] md:w-[51.744791666666668vw] md:text-start md:text-[1.5rem] lg:text-[1.875rem]">
+        <div className="d6 mt-[8vw] w-[81.744791666666668vw] text-center sm:w-[50vw] sm:text-[0.8rem] md:mt-[5.849557522123893vh] md:w-[51.744791666666668vw] md:text-start md:text-[1.5rem] lg:text-[1.875rem]"  >
           <p className="p2 text-md m-0 font-source-serif font-semibold tracking-[0.2604166666666667vw] md:ml-[0] md:text-3xl">
             Join the adrenaline-pumping 36-hour
           </p>

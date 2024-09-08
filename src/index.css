@@ -8,6 +8,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 .animated-gradient {
   /* background: linear-gradient(to left, #160d25 , #1b0f2c, #110c24,#150727, #190a2b,#210f37,#1e1032,  #12092f);
    */
@@ -23,8 +27,6 @@
   );
   min-height: 100vh;
 }
-
-
 
 .navbar-transparent {
   background-color: transparent;
@@ -116,4 +118,20 @@
 
 .clamp-complete {
   font-size: clamp(13.5px, 25px); /* Adjust these values to fit your design */
+}
+
+::-webkit-scrollbar {
+  /* Customize the scrollbar width */
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  /* Customize the scrollbar track */
+  background: #01061b;
+}
+
+::-webkit-scrollbar-thumb {
+  /* Customize the scrollbar thumb */
+  background: #7367cd;
+  border-radius: 10px;
 }
