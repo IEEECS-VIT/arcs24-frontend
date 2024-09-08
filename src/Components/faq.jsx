@@ -1,7 +1,8 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState } from "react";
 import Accordion from "./accordion";
 import "../index.css";
 import "../ieeecs.css";
+
 const HackFaqItems = [
   {
     title: "What is ARCS?",
@@ -27,7 +28,7 @@ const HackFaqItems = [
     title: "When are the events?",
     content: (
       <>
-        ARCS will be hosted during pre-gravitas , the dates for the same will be
+        ARCS will be hosted during pre-gravitas, the dates for the same will be
         announced soon.
       </>
     ),
@@ -36,8 +37,8 @@ const HackFaqItems = [
     title: "Will OD's be provided to participants?",
     content: (
       <>
-        Yes OD's will be provided to all participants of both the events for the
-        whole duration of the event.
+        Yes, OD's will be provided to all participants of both the events for
+        the whole duration of the event.
       </>
     ),
   },
@@ -45,9 +46,14 @@ const HackFaqItems = [
 
 const Faq = () => {
   const [selected, setSelected] = useState("HackBattle");
+  const [activeIndex, setActiveIndex] = useState(null); // State to track the active FAQ
 
   const handleChange = (event) => {
     setSelected(event.target.value);
+  };
+
+  const handleAccordionClick = (index) => {
+    setActiveIndex(index === activeIndex ? null : index); // Toggle the active FAQ
   };
 
   const getItems = () => {
@@ -63,7 +69,11 @@ const Faq = () => {
         <p className="font-rugen text-7xl text-[#F7F6F3]">FAQS</p>
         <div className="flex items-center justify-center gap-2"></div>
       </div>
-      <Accordion items={getItems()} />
+      <Accordion
+        items={getItems()}
+        activeIndex={activeIndex}
+        onClick={handleAccordionClick}
+      />
       <InfiniteMarquee />
     </div>
   );
@@ -71,8 +81,8 @@ const Faq = () => {
 
 const InfiniteMarquee = () => {
   return (
-    <div className="absolute bottom-0 left-0 w-full overflow-hidden">
-      <div className="marquee-container highlight whitespace-nowrap font-rugen text-5xl">
+    <div className="absolute bottom-0 left-0 w-full overflow-hidden" id="faqs">
+      <div className="marquee-container-right whitespace-nowrap font-rugen text-3xl sm:text-4xl md:text-5xl">
         <div className="marquee-content inline-block">
           {Array.from({ length: 5 }).map((_, i) => (
             <span key={i} className="px-4">
@@ -80,7 +90,7 @@ const InfiniteMarquee = () => {
             </span>
           ))}
         </div>
-        <div className="highlight marquee-content inline-block">
+        <div className="marquee-content inline-block">
           {Array.from({ length: 5 }).map((_, i) => (
             <span key={i} className="px-4">
               DOUBLE THE EVENTS! DOUBLE THE FUN!

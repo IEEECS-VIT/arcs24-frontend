@@ -24,6 +24,23 @@
   min-height: 100vh;
 }
 
+
+
+.navbar-transparent {
+  background-color: transparent;
+}
+
+.animated-gradient-mobile {
+  background: linear-gradient(
+    to left,
+    #290c2e,
+    #02061b,
+    #01061a,
+    #01051b,
+    #01051a,
+    #290c2e
+  );
+}
 @keyframes scroll {
   0% {
     transform: translateX(0);
@@ -61,14 +78,15 @@
 
 .text-overlay span {
   background: linear-gradient(
-    to left, #241438,
+    to left,
+    #241438,
     #01061b,
     #01051a,
     #01061a,
     #01051b,
-    #01051a
-  , #201132);
-   
+    #01051a,
+    #201132
+  );
 }
 
 .glow-on-hover:hover {
@@ -98,4 +116,4 @@
 
 .clamp-complete {
   font-size: clamp(13.5px, 25px); /* Adjust these values to fit your design */
-} 
+}

@@ -1,6 +1,6 @@
 function LandingPage() {
   return (
-    <div className="relative h-screen overflow-hidden bg-[#01061B]">
+    <div className="relative h-screen overflow-hidden bg-[#01061B]" id="hero">
       <div className="absolute inset-0 z-0">
         <img
           className="pointer-events-none absolute -left-6 bottom-60 z-10 hidden select-none lg:block lg:w-5/12"
@@ -104,19 +104,51 @@ function LandingPage() {
           </svg>
         </button>
       </div>
-
-      <div className="absolute bottom-9 z-20 w-full rotate-3 border border-dashed border-gray-400 bg-gradient-to-r from-[#01061B] via-100% to-[#073543]">
-        <span className="pointer-events-none inline-block select-none whitespace-nowrap text-center font-rugen text-xl text-white">
-          EXCITING PRIZE POOL | INTERESTING SPEAKER SESSION | EXCITING PRIZE
-          POOL | INTERESTING SPEAKER SESSION | EXCITING PRIZE POOL | INTERESTING
-          SPEAKER SESSION
-        </span>
+      <div className="absolute bottom-9 z-20 w-full rotate-[4deg] border border-dashed border-gray-400 bg-gradient-to-r from-[#01061B] via-100% to-[#073543] sm:rotate-3">
+        <div className="overflow-hidden">
+          <div className="marquee-container-left whitespace-nowrap font-rugen text-base sm:text-2xl">
+            <div className="marquee-content inline-block">
+              {Array.from({ length: 1 }).map((_, i) => (
+                <span key={i} className="px-4">
+                  EXCITING PRIZE POOL | INTERESTING SPEAKER SESSION | EXCITING
+                  PRIZE POOL | INTERESTING SPEAKER SESSION | EXCITING PRIZE POOL
+                  |
+                </span>
+              ))}
+            </div>
+            <div className="marquee-content inline-block">
+              {Array.from({ length: 1 }).map((_, i) => (
+                <span key={i} className="px-4">
+                  EXCITING PRIZE POOL | INTERESTING SPEAKER SESSION | EXCITING
+                  PRIZE POOL | INTERESTING SPEAKER SESSION | EXCITING PRIZE POOL
+                  |
+                </span>
+              ))}
+            </div>
+          </div>
+        </div>
       </div>
-      <div className="absolute bottom-9 z-20 w-full -rotate-3 bg-gradient-to-r from-[#9F9DFF] via-[#682FED] to-[#9070f8] opacity-90 backdrop-opacity-15">
-        <span className="pointer-events-none inline-block select-none whitespace-nowrap text-center font-rugen text-xl text-white">
-          HACKBATTLE | CICADA | HACKBATTLE | CICADA | HACKBATTLE | CICADA |
-          HACKBATTLE | CICADA | HACKBATTLE | CICADA | HACKBATTLE
-        </span>
+      <div className="absolute bottom-9 z-20 w-full -rotate-[4deg] bg-gradient-to-r from-[#9F9DFF] via-[#682FED] to-[#9070f8] opacity-90 backdrop-opacity-15 sm:-rotate-3">
+        <div className="overflow-hidden">
+          <div className="marquee-container-right whitespace-nowrap font-rugen text-base sm:text-2xl">
+            <div className="marquee-content inline-block">
+              {Array.from({ length: 1 }).map((_, i) => (
+                <span key={i} className="px-4">
+                  HACKBATTLE | CICADA | HACKBATTLE | CICADA | HACKBATTLE |
+                  CICADA | HACKBATTLE | CICADA |
+                </span>
+              ))}
+            </div>
+            <div className="marquee-content inline-block">
+              {Array.from({ length: 1 }).map((_, i) => (
+                <span key={i} className="px-4">
+                  HACKBATTLE | CICADA | HACKBATTLE | CICADA | HACKBATTLE |
+                  CICADA | HACKBATTLE | CICADA |
+                </span>
+              ))}
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
