@@ -1,16 +1,15 @@
 import { useState } from "react";
 
-const AccordionItem = ({ title, content }) => {
-  const [isExpanded, setIsExpanded] = useState(false);
-
+const AccordionItem = ({ title, content, isExpanded, onClick }) => {
   return (
     <div className="mb-2">
-      
       <button
         type="button"
-        className={`mb-2 flex w-full items-center justify-between gap-4 ${!isExpanded && "rounded-xl border-b border-white"} bg-transparent p-4 text-left`}
+        className={`mb-2 flex w-full items-center justify-between gap-4 ${
+          !isExpanded && "rounded-xl border-b border-white"
+        } bg-transparent p-4 text-left`}
         aria-expanded={isExpanded}
-        onClick={() => setIsExpanded(!isExpanded)}
+        onClick={onClick}
       >
         {title}
         <svg
@@ -19,7 +18,9 @@ const AccordionItem = ({ title, content }) => {
           fill="none"
           strokeWidth="2"
           stroke="currentColor"
-          className={`size-5 shrink-0 transition ${isExpanded ? "rotate-180" : ""}`}
+          className={`size-5 shrink-0 transition ${
+            isExpanded ? "rotate-180" : ""
+          }`}
           aria-hidden="true"
         >
           <path
@@ -31,7 +32,9 @@ const AccordionItem = ({ title, content }) => {
       </button>
       {isExpanded && (
         <div
-          className={`mb-2 text-pretty ${isExpanded && "rounded-xl border-b border-white"} p-4 text-sm sm:text-base`}
+          className={`mb-2 text-pretty ${
+            isExpanded && "rounded-xl border-b border-white"
+          } p-4 text-sm sm:text-base`}
         >
           {content}
         </div>
@@ -41,10 +44,22 @@ const AccordionItem = ({ title, content }) => {
 };
 
 const Accordion = ({ items }) => {
+  const [expandedIndex, setExpandedIndex] = useState(null);
+
+  const handleAccordionClick = (index) => {
+    setExpandedIndex(index === expandedIndex ? null : index); // Toggle or close other items
+  };
+
   return (
     <div className="w-[99%] overflow-hidden sm:w-[95%] md:w-[60%]">
       {items.map((item, index) => (
-        <AccordionItem key={index} title={item.title} content={item.content} />
+        <AccordionItem
+          key={index}
+          title={item.title}
+          content={item.content}
+          isExpanded={expandedIndex === index}
+          onClick={() => handleAccordionClick(index)}
+        />
       ))}
     </div>
   );
