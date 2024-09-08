@@ -11,18 +11,18 @@ function Happie(){
             </div>
             <div className="md:relative lg:left-[8vw] md:left-[6vw] md:top-[7vh] bg-[#474C78]/70 h-fit 2xl:w-1/4 xl:w-96 lg:w-80 md:w-72 rounded-3xl xl:p-7 md:-rotate-6 p-4 absolute w-11/12 top-[26vh] portrait:small:top-[25vh]">
                 <p className="text-[#CDCFD7] font-source-serif 2xl:text-xl lg:text-lg font-semibold text-center portrait:small:text-sm">"The treasure hunt was a great way to team up and test our problem-solving skills. Cicada was epic!"</p>
-                <p className="xl:mt-3 md:mt-1 text-[#CDCFD7] font-source-serif xl:text-base md:text-sm font-semibold portrait:small:text-xs"><img src="dp.svg" className="inline-block mr-3 w-10 h-10 portrait:small:w-7 portrait:small:h-7 pointer-events-none select-none"/>Ashika From Team Zero</p>
+                <p className="xl:mt-3 md:mt-1 text-[#CDCFD7] font-source-serif xl:text-base md:text-sm font-semibold portrait:small:text-xs"><img src="p12.jpeg" className="inline-block mr-3 w-10 h-10 portrait:small:w-7 rounded-3xl portrait:small:h-7 pointer-events-none select-none"/>Ashika From Team Zero</p>
             </div>
             <div className="relative 2xl:left-[17vw] xl:left-[15vw] lg:left-[13vw] md:left-[10vw] lg:top-[7vh] md:top-[10vh] md:block hidden pointer-events-none select-none">
                 <iframe src="https://giphy.com/embed/b8RfbQFaOs1rO10ren" className="lg:w-32 md:w-24"></iframe>
             </div>
             <div className="md:relative 2xl:left-[27vw] lg:left-[22vw] md:left-[12vw] md:top-[7vh] bg-[#474C78]/70 h-fit 2xl:w-1/4 xl:w-96 lg:w-80 md:w-72 rounded-3xl xl:p-7 md:rotate-6 p-4 absolute w-11/12 portrait:small:top-[45vh] top-[44vh]">
                 <p className="text-[#CDCFD7] font-source-serif 2xl:text-xl lg:text-lg font-semibold text-center portrait:small:text-sm">"Cicada combined excitement and strategy perfectly. I felt like a real-life detective!"</p>
-                <p className="xl:mt-3 md:mt-1 text-[#CDCFD7] font-source-serif xl:text-base md:text-sm font-semibold portrait:small:text-xs"><img src="dp.svg" className="inline-block mr-3 w-10 h-10 portrait:small:w-7 portrait:small:h-7 pointer-events-none select-none"/>Devika From Team X3M</p>
+                <p className="xl:mt-3 md:mt-1 text-[#CDCFD7] font-source-serif xl:text-base md:text-sm font-semibold portrait:small:text-xs"><img src="p13.jpeg" className="inline-block mr-3 w-10 h-10 portrait:small:w-7 rounded-3xl portrait:small:h-7 pointer-events-none select-none"/>Devika From Team X3M</p>
             </div>
             <div className="absolute lg:left-[8vw] md:left-[6vw] md:top-[70vh] bg-[#474C78]/70 h-fit 2xl:w-1/4 xl:w-96 lg:w-80 md:w-72 rounded-3xl p-4 md:rotate-6 w-11/12 top-[60vh] portrait:small:top-[61.5vh]">
                 <p className="text-[#CDCFD7] font-source-serif 2xl:text-xl lg:text-lg font-semibold text-center portrait:small:text-sm">"The energy at HackBattle was incredible! Non-stop coding, innovation, and fun. Highly recommend!"</p>
-                <p className="xl:mt-3 md:mt-1 text-[#CDCFD7] font-source-serif xl:text-base md:text-sm font-semibold portrait:small:text-xs"><img src="dp.svg" className="inline-block mr-3 w-10 h-10 portrait:small:w-7portrait: small:h-7 pointer-events-none select-none"/>Gourav From Team UwU</p>
+                <p className="xl:mt-3 md:mt-1 text-[#CDCFD7] font-source-serif xl:text-base md:text-sm font-semibold portrait:small:text-xs"><img src="p11.jpeg" className="inline-block mr-3 w-10 h-10 rounded-3xl portrait:small:w-7portrait: small:h-7 pointer-events-none select-none"/>Gourav From Team UwU</p>
             </div>
             <div className="absolute bottom-[10vh] 2xl:left-1/3 md:inline-block ml-56 xl:left-[30vw] lg:left-[25vw] md:left-[18vw] hidden pointer-events-none select-none">
                 <iframe src="https://giphy.com/embed/5GoVLqeAOo6PK" className="lg:w-32 md:w-24 "></iframe>
