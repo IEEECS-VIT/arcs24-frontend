@@ -7,7 +7,7 @@ function Happie(){
                 <img src="Ellipse 5.svg" />
             </div>
             <div className="absolute inset-y-0 right-0 pointer-events-none select-none">
-                <img src ="Ellipse 6.svg" />
+                <img src ="Ellipse 6.svg" />    
             </div>
             <div className="md:relative lg:left-[8vw] md:left-[6vw] md:top-[7vh] bg-[#474C78]/70 h-fit 2xl:w-1/4 xl:w-96 lg:w-80 md:w-72 rounded-3xl xl:p-7 md:-rotate-6 p-4 absolute w-11/12 top-[26vh] portrait:small:top-[25vh]">
                 <p className="text-[#CDCFD7] font-source-serif 2xl:text-xl lg:text-lg font-semibold text-center portrait:small:text-sm">"The treasure hunt was a great way to team up and test our problem-solving skills. Cicada was epic!"</p>
@@ -37,7 +37,7 @@ function Happie(){
                     <img src="Ellipse 7.svg" />
                 </div>
                 <div className="absolute w-72 md:h-10 rounded-3xl bg-[#F7F6F3] lg:left-[40vw] md:left-[35vw] md:top-[33vh] top-[2vh] h-8">
-                    <p className="relative font-source-serif text-xl text-center text-[#01061B] md:top-0 -top-1">several people are typing<span className="text-3xl text-[#31F7C8]">...</span></p>
+                    <p className="relative font-source-serif text-xl text-center text-[#01061B] md:top-0 -top-1">several peopl are typing<span className="text-3xl text-[#31F7C8]">...</span></p>
                 </div>
                 <div className="absolute md:top-[35vh] 2xl:left-[12vw] xl:left-[5vw] lg:left-[6vw] md:left-[5vw] md:p-7 top-[7vh] left-[2vw]">
                     <h1 className="text-[#F7F6F3] xl:text-6xl md:text-3xl font-rugen text-center text-2xl portrait:tall:text-3xl">OUR EVENTS LEAVE <br /> PARTICIPANTS IMPRESSED</h1>
