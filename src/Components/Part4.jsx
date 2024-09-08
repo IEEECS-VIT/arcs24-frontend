@@ -6,7 +6,7 @@ export default function Part4() {
     <div className="div1 m-0 md:ml-[2.26vw] sm:ml-[15vw] md:mr-[10vw] md:mt-[12.7vh] md:flex">
       {/* Top Image for mobile view */}
       <img
-        className="img10 order-1 ml-[22.5vw] sm:ml-[18vw]  mt-[5vh] h-[25vh] md:mt-0 md:hidden"
+        className="img10 order-1 ml-[20.5vw] sm:ml-[18vw]  mt-[5vh] h-[25vh] md:mt-0 md:hidden"
         src="Group119.svg"
         alt="Decorative Graphic"
       />
