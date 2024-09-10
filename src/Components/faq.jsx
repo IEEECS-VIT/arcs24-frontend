@@ -18,9 +18,20 @@ const HackFaqItems = [
     title: "Where can we register?",
     content: (
       <>
-        Registrations will be open soon, stay tuned to our social media handles
-        for updates. We will be updating the registration links on our website
-        as well.
+        Registrations are open! Visit the gravitas website to register for{" "}
+        <a
+          href="https://gravitas.vit.ac.in/events/e748d506-415c-4166-b45f-7485c25406aa"
+          className="underline"
+        >
+          HackBattle
+        </a>{" "}
+        and{" "}
+        <a
+          href="https://gravitas.vit.ac.in/events/5387f16e-b092-470a-b918-e89307526ebf"
+          className="underline"
+        >
+          Cicada
+        </a>
       </>
     ),
   },
@@ -28,8 +39,8 @@ const HackFaqItems = [
     title: "When are the events?",
     content: (
       <>
-        ARCS will be hosted during pre-gravitas, the dates for the same will be
-        announced soon.
+        ARCS will be hosted during pre-gravitas. Hackbattle is on 25-26th of
+        September and Cicada is on 22nd of September.
       </>
     ),
   },

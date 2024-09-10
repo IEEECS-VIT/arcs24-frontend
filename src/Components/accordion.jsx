@@ -5,7 +5,7 @@ const AccordionItem = ({ title, content, isExpanded, onClick }) => {
     <div className="mb-2">
       <button
         type="button"
-        className={`mb-2 flex w-full items-center justify-between gap-4 ${
+        className={`mb-2 flex w-full items-center justify-between gap-4 font-rugen ${
           !isExpanded && "rounded-xl border-b border-white"
         } bg-transparent p-4 text-left`}
         aria-expanded={isExpanded}
@@ -32,9 +32,9 @@ const AccordionItem = ({ title, content, isExpanded, onClick }) => {
       </button>
       {isExpanded && (
         <div
-          className={`mb-2 text-pretty ${
+          className={`mb-2 text-pretty font-neuton ${
             isExpanded && "rounded-xl border-b border-white"
-          } p-4 text-sm sm:text-base`}
+          } p-4 text-lg sm:text-base`}
         >
           {content}
         </div>
