@@ -14,7 +14,7 @@ function Happie() {
         
       >
         <p className="text-center font-source-serif font-semibold text-[#CDCFD7] lg:text-lg 2xl:text-xl portrait:small:text-sm">
-          "The treasure hunt was a great way to team up and test our
+          "The technical hunt was a great way to team up and test our
           problem-solving skills. Cicada was epic!"
         </p>
         <p className="font-source-serif font-semibold text-[#CDCFD7] md:mt-1 md:text-sm xl:mt-3 xl:text-base portrait:small:text-xs">
