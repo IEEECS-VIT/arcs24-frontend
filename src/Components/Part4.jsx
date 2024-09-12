@@ -6,7 +6,7 @@ export default function Part4() {
     <div className="div1 m-0 md:ml-[2.26vw] sm:ml-[15vw] md:mr-[10vw] md:mt-[12.7vh] md:flex">
       {/* Top Image for mobile view */}
       <img
-        className="img10 order-1 ml-[20.5vw] sm:ml-[18vw]  mt-[5vh] h-[25vh] md:mt-0 md:hidden"
+        className="img10 order-1 ml-[20.5vw] sm:ml-[18vw]  h-[25vh] md:mt-0 md:hidden"
         src="Group119.svg"
         alt="Decorative Graphic"
       />
@@ -22,7 +22,7 @@ export default function Part4() {
 
         {/* Text Content */}
         <div className="d6 mt-[8vw] w-[81.75vw] sm:w-[50vw] text-center md:mt-[5.85vh] lg:w-[49.75vw] md:w-[45vw]  md:text-start">
-          <p className="p2 m-0 font-source-serif font-semibold tracking-[0.26vw] md:ml-0 md:text-3xl  lg:text-[1.875rem] md:text-[1.5rem] sm:text-[0.8rem]">
+          <p className="p2 m-0 font-source-serif font-semibold  tracking-[0.26vw] md:ml-0 md:text-3xl  lg:text-[1.875rem] md:text-[1.5rem] sm:text-[0.8rem]">
             Welcome to the game where only the brave and the brilliant dare
             tread. Cicada 3310 is not for the faint of heart — it's a hacker’s
             playground, a cryptographer's nightmare, and a genius’s proving
@@ -40,7 +40,7 @@ export default function Part4() {
 
         {/* Right Icon Image */}
         <img
-          className="img3 mt-[40vw] sm:mt-[28vh]  h-[6.8vh] w-[7.2vw] md:mr-[5.9vw] md:mt-[37.93vh] md:h-[8.1vh] md:w-[4vw]"
+          className="img3 mt-[50vw] sm:mt-[28vh]  h-[6.8vh] w-[7.2vw] md:mr-[5.9vw] md:mt-[37.93vh] md:h-[8.1vh] md:w-[4vw]"
           src="/Group112.svg"
           alt="Right Icon"
         />

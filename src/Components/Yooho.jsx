@@ -2,7 +2,7 @@ import "../index.css";
 
 function Yooho() {
   return (
-    <div className="relative flex min-h-screen items-center justify-center">
+    <div className="relative flex pt-[15vh] items-center justify-center">
       
       <div className="animated-gradient absolute left-0 top-0 h-screen w-full"></div>
       

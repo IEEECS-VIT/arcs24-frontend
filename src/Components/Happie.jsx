@@ -35,9 +35,9 @@ function Happie(){
             <div className="items-center justify-center my-0 mx-auto flex">
                 <div className="absolute left-[25vw] top-[15vh] md:block hidden pointer-events-none select-none">
                     <img src="Ellipse 7.svg" />
-                </div>
-                <div className="absolute w-72 md:h-10 rounded-3xl bg-[#F7F6F3] lg:left-[40vw] md:left-[35vw] md:top-[33vh] top-[2vh] h-8">
-                    <p className="relative font-source-serif text-xl text-center text-[#01061B] md:top-0 -top-1">several peopl are typing<span className="text-3xl text-[#31F7C8]">...</span></p>
+                </div>  
+                <div className="absolute hidden sm:block w-72 md:h-10 rounded-3xl bg-[#F7F6F3] lg:left-[40vw] md:left-[35vw] md:top-[33vh] top-[2vh] h-8">
+                    <p className="relative font-source-serif text-xl text-center text-[#01061B] md:top-0 -top-1">several people are typing<span className="text-3xl text-[#31F7C8]">...</span></p>
                 </div>
                 <div className="absolute md:top-[35vh] 2xl:left-[12vw] xl:left-[5vw] lg:left-[6vw] md:left-[5vw] md:p-7 top-[7vh] left-[2vw]">
                     <h1 className="text-[#F7F6F3] xl:text-6xl md:text-3xl font-rugen text-center text-2xl portrait:tall:text-3xl">OUR EVENTS LEAVE <br /> PARTICIPANTS IMPRESSED</h1>
