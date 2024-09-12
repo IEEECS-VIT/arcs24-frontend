@@ -23,6 +23,7 @@ export default function Part5() {
         <a
           href="https://gravitas.vit.ac.in/events/5387f16e-b092-470a-b918-e89307526ebf"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <svg
             className="order-2 ml-[7.5vw] mt-[2vw] h-[16.321112515802781vh] w-[85.182291666666668vw] md:order-1 md:ml-[10.067708333333334vw] md:mt-[9.578002528445005vh] md:h-[5vh] md:w-[40vw] lg:h-[6.826801517067004vh] lg:w-[35.807291666666664vw]"

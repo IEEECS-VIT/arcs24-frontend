@@ -9,7 +9,7 @@ export default function Part4() {
     >
       {/* Top Image for mobile view */}
       <img
-        className="img10 order-1 ml-[20.5vw] mt-[5vh] h-[25vh] sm:ml-[18vw] md:mt-0 md:hidden"
+        className="img10 order-1 ml-[20.5vw] h-[25vh] sm:ml-[18vw] md:mt-0 md:hidden"
         src="Group119.svg"
         alt="Decorative Graphic"
       />
@@ -31,11 +31,6 @@ export default function Part4() {
             playground, a cryptographer's nightmare, and a genius’s proving
             ground.
           </p>
-          {/* <p className="p2 m-0 mt-[0.5vw] font-source-serif text-md font-semibold leading-[151%] tracking-[0.26vw] md:ml-0 md:text-3xl">
-            Hidden messages, encrypted codes, and unsolvable puzzles guard a
-            secret that only the worthy will discover. Every click is a risk,
-            every riddle a step deeper into the rabbit hole.
-          </p> */}
           <p className="p2 text-md m-0 mt-[0.5vw] font-source-serif font-semibold leading-[151%] tracking-[0.26vw] text-purple-400 md:ml-0 md:text-3xl md:text-[1.2rem] md:text-[1.5rem] lg:text-[1.875rem]">
             "Not all who wander are lost… some are hunted." - team 3310
           </p>
