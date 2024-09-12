@@ -9,7 +9,7 @@ export default function Part4() {
     >
       {/* Top Image for mobile view */}
       <img
-        className="img10 order-1 ml-[20.5vw] mt-[5vh] h-[25vh] sm:ml-[18vw] md:mt-0 md:hidden"
+        className="img10 order-1 ml-[20.5vw] h-[25vh] sm:ml-[18vw] md:mt-0 md:hidden"
         src="Group119.svg"
         alt="Decorative Graphic"
       />
