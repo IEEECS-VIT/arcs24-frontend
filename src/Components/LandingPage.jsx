@@ -64,7 +64,7 @@ function LandingPage() {
                 dominantBaseline="middle"
                 textAnchor="middle"
                 fill="white"
-                className="font-rugen text-[3.5vh] lg:text-[5vh]"
+                className="font-rugen text-[3vh] lg:text-[4.5vh]"
               >
                 HACKBATTLE
               </text>
@@ -96,7 +96,7 @@ function LandingPage() {
                 dominantBaseline="middle"
                 textAnchor="middle"
                 fill="white"
-                className="font-rugen text-[3.5vh] lg:text-[5vh]"
+                className="font-rugen text-[3vh] lg:text-[4.5vh]"
               >
                 CICADA
               </text>
