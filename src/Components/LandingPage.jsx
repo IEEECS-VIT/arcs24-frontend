@@ -17,33 +17,40 @@ function LandingPage() {
         />
       </div>
 
-      <div className="relative z-20 mt-20 text-center lg:mt-28">
-        <h1 className="pointer-events-none select-none font-rugen text-[10vh] text-white lg:text-[18vh]">
+      <div className="relative z-20 flex flex-col items-center justify-center pt-16 lg:pt-24">
+        <img
+          src="techknowgreen.svg"
+          className="mb-4 mt-10 h-[8vh] w-auto lg:mt-0 lg:h-[10vh] lg:w-auto"
+          alt="TechKnowGreen logo"
+        />
+        <h2 className="pointer-events-none select-none font-rugen text-[2vh] lg:text-[2vh]">
+          <span className="bg-gradient-to-r from-[#DC55FF] from-25% via-[#D735B3] via-65% to-[#FF001F] to-100% bg-clip-text text-transparent">
+            presents
+          </span>
+        </h2>
+        <h1 className="pointer-events-none select-none font-rugen text-[8vh] text-white lg:text-[16vh]">
           ARCS
         </h1>
-        <p className="pointer-events-none hidden select-none font-rugen text-[2vh] text-white lg:-mt-5 lg:block lg:text-[4.5vh]">
+        <p className="pointer-events-none hidden select-none font-rugen text-[2vh] text-white lg:block lg:text-[4vh]">
           OUR FLAGSHIP EVENTS
         </p>
-        <p className="mt-12 font-rugen text-[3.8vh] leading-tight text-white lg:hidden">
-          OUR
-        </p>
-        <p className="font-rugen text-[3.8vh] leading-tight text-white lg:hidden">
-          FLAGSHIP
-        </p>
-        <p className="font-rugen text-[3.8vh] leading-tight text-white lg:hidden">
-          EVENTS
-        </p>
-        <p className="pointer-events-none select-none font-rugen text-[3.8vh] leading-tight text-white lg:text-[4.5vh]">
+        <div className="mt-4 text-center font-rugen text-[3vh] leading-tight text-white lg:hidden">
+          <p>OUR</p>
+          <p>FLAGSHIP</p>
+          <p>EVENTS</p>
+        </div>
+        <p className="pointer-events-none mt-2 select-none font-rugen text-[3vh] leading-tight text-white lg:text-[4vh]">
           ARE{" "}
           <span className="bg-gradient-to-r from-[#DC55FF] from-25% via-[#D735B3] via-65% to-[#FF001F] to-100% bg-clip-text text-transparent">
             BACK
           </span>
         </p>
       </div>
-      <div className="relative z-20 grid w-full place-items-center items-center justify-center lg:mt-10 lg:flex lg:gap-x-8">
+
+      <div className="relative z-20 mt-8 grid w-full place-items-center items-center justify-center lg:mt-10 lg:flex lg:gap-x-8">
         <button className="items-center justify-center font-normal uppercase text-white no-underline transition-all duration-200 ease-in-out lg:flex">
           <svg
-            className="\\ my-8 h-[10vh] lg:my-0 lg:h-[20vh] lg:w-[30vw]"
+            className="my-4 h-[8vh] lg:my-0 lg:h-[16vh] lg:w-[25vw]"
             preserveAspectRatio="xMidYMid meet"
           >
             <a
@@ -64,7 +71,7 @@ function LandingPage() {
                 dominantBaseline="middle"
                 textAnchor="middle"
                 fill="white"
-                className="font-rugen text-[3vh] lg:text-[4.5vh]"
+                className="font-rugen text-[2.5vh] lg:text-[4vh]"
               >
                 HACKBATTLE
               </text>
@@ -74,7 +81,7 @@ function LandingPage() {
 
         <button className="items-center justify-center font-normal uppercase no-underline transition-all duration-200 ease-in-out lg:flex">
           <svg
-            className="h-[10vh] lg:h-[20vh] lg:w-[30vw]"
+            className="h-[8vh] lg:h-[16vh] lg:w-[25vw]"
             preserveAspectRatio="xMidYMid meet"
           >
             <a
@@ -96,7 +103,7 @@ function LandingPage() {
                 dominantBaseline="middle"
                 textAnchor="middle"
                 fill="white"
-                className="font-rugen text-[3vh] lg:text-[4.5vh]"
+                className="font-rugen text-[2.5vh] lg:text-[4vh]"
               >
                 CICADA
               </text>
@@ -110,9 +117,10 @@ function LandingPage() {
             <div className="marquee-content inline-block">
               {Array.from({ length: 1 }).map((_, i) => (
                 <span key={i} className="px-4">
-                  EXCITING PRIZE POOL | INTERESTING SPEAKER SESSION | EXCITING
-                  PRIZE POOL | INTERESTING SPEAKER SESSION | EXCITING PRIZE POOL
-                  |
+                  TITLE SPONSOR: TECHKNOWGREEN SOLUTIONS | TITLE SPONSOR:
+                  TECHKNOWGREEN SOLUTIONS | TITLE SPONSOR: TECHKNOWGREEN
+                  SOLUTIONS | TITLE SPONSOR: TECHKNOWGREEN SOLUTIONS | TITLE
+                  SPONSOR: TECHKNOWGREEN SOLUTIONS |
                 </span>
               ))}
             </div>
