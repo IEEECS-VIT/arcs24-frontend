@@ -8,7 +8,7 @@ export default function Part5() {
     <div className="mt-[0vh] md:flex" data-aos="fade-left">
       <div className="content1 order-1 ml-[17vw] mt-[0vh] w-[61.3828125vw] sm:ml-[28.5vw] md:order-2 md:ml-[19.5vw] md:mt-[3.7926675094816686vh] md:w-[27.799479166666668vw]">
         <p className="p1 w-[87.3828125vw] font-source-serif text-[1.463rem] font-bold leading-[145%] tracking-[0.3604166666666667vw] md:ml-[0] md:mt-[0.6321112515802781vh] md:w-[27.799479166666668vw] md:text-xl">
-          <span className="t1 ml-[2.8vw] text-blurple">Date: </span>22nd
+          <span className="t1 ml-[2.8vw] text-blurple">Date: </span>28th
           September
         </p>
         <p className="p1 ml-[1.5vw] w-[87.3828125vw] font-source-serif text-2xl font-bold leading-[145%] tracking-[0.3604166666666667vw] md:ml-[0] md:mt-[0.6321112515802781vh] md:w-[27.799479166666668vw] md:text-xl">
@@ -21,7 +21,7 @@ export default function Part5() {
 
       <button className="!important flex items-center justify-center font-normal uppercase no-underline sm:mb-[5vh]">
         <a
-          href="https://gravitas.vit.ac.in/events/5387f16e-b092-470a-b918-e89307526ebf"
+          href="https://gravitas.vit.ac.in/events/bd9190cc-5c20-483e-8489-cd2f521d5769"
           target="_blank"
         >
           <svg

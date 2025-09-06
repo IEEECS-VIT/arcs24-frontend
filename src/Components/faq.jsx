@@ -20,14 +20,14 @@ const HackFaqItems = [
       <>
         Registrations are open! Visit the gravitas website to register for{" "}
         <a
-          href="https://gravitas.vit.ac.in/events/e748d506-415c-4166-b45f-7485c25406aa"
+          href="https://gravitas.vit.ac.in/events/e3dd00a8-fc7f-433a-9bfa-3d20c3d5bdd0"
           className="underline"
         >
           HackBattle
         </a>{" "}
         and{" "}
         <a
-          href="https://gravitas.vit.ac.in/events/5387f16e-b092-470a-b918-e89307526ebf"
+          href="https://gravitas.vit.ac.in/events/bd9190cc-5c20-483e-8489-cd2f521d5769"
           className="underline"
         >
           Cicada
@@ -39,8 +39,8 @@ const HackFaqItems = [
     title: "When are the events?",
     content: (
       <>
-        ARCS will be hosted during pre-gravitas. Hackbattle is on 25-26th of
-        September and Cicada is on 22nd of September.
+        ARCS will be hosted during pre-gravitas. Hackbattle is on 23-25th of
+        September and Cicada is on 28th of September.
       </>
     ),
   },

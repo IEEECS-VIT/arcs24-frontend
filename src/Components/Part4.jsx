@@ -27,7 +27,7 @@ export default function Part4() {
         <div className="d6 mt-[8vw] w-[81.75vw] text-center sm:w-[50vw] md:mt-[5.85vh] md:w-[45vw] md:text-start lg:w-[49.75vw]">
           <p className="p2 m-0 font-source-serif font-semibold tracking-[0.26vw] sm:text-[0.8rem] md:ml-0 md:text-3xl md:text-[1.5rem] lg:text-[1.875rem]">
             Welcome to the game where only the brave and the brilliant dare
-            tread. Cicada 3310 is not for the faint of heart — it's a hacker’s
+            tread. Cicada 3300 is not for the faint of heart — it's a hacker’s
             playground, a cryptographer's nightmare, and a genius’s proving
             ground.
           </p>
@@ -37,7 +37,7 @@ export default function Part4() {
             every riddle a step deeper into the rabbit hole.
           </p> */}
           <p className="p2 text-md m-0 mt-[0.5vw] font-source-serif font-semibold leading-[151%] tracking-[0.26vw] text-purple-400 md:ml-0 md:text-3xl md:text-[1.2rem] md:text-[1.5rem] lg:text-[1.875rem]">
-            "Not all who wander are lost… some are hunted." - team 3310
+            "Not all who wander are lost… some are hunted." - team 3300
           </p>
         </div>
 

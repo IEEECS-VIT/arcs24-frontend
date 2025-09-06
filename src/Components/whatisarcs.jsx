@@ -41,7 +41,7 @@ const WhatIsArcs = () => {
 
           <div className="mb-6 max-w-full text-lg leading-relaxed md:max-w-[80%] md:text-base lg:max-w-[85%] lg:text-lg">
             <p>
-              {`ARCS'24 is the ultimate celebration of technology's transformative power, uniting visionaries, pioneers, and enthusiasts alike.`}
+              {`ARCS'25 is the ultimate celebration of technology's transformative power, uniting visionaries, pioneers, and enthusiasts alike.`}
             </p>
             <p>
               {`This grand event fosters a dynamic platform for innovation to flourish.`}

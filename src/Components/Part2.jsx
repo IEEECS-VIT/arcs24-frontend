@@ -8,13 +8,13 @@ export default function Part2() {
     <div className="mt-[2.5vh] md:flex" data-aos="fade-right">
       <div className="content1 ml-[17vw] mt-[4vh] w-[61.3828125vw] flex-col justify-center sm:ml-[28.5vw] md:ml-[8.5vw] md:mt-[5.7926675094816686vh] md:w-[27.799479166666668vw]">
         <p className="p1 w-[87.3828125vw] font-source-serif text-[1.463rem] font-bold leading-[145%] tracking-[0.3604166666666667vw] md:ml-[0] md:mt-[0.6321112515802781vh] md:w-[27.799479166666668vw] md:text-xl">
-          <span className="t1 text-blurple">Date: </span>25-26th September
+          <span className="t1 text-blurple">Date: </span>23-25th September
         </p>
         <p className="p1 ml-[1.5vw] w-[87.3828125vw] font-source-serif text-2xl font-bold leading-[145%] tracking-[0.3604166666666667vw] md:ml-[0] md:mt-[0.6321112515802781vh] md:w-[27.799479166666668vw] md:text-xl">
           <span className="t1 text-blurple">Venue: </span>Anna Auditorium
         </p>
         <p className="p1 w-[77.3828125vw] font-source-serif text-2xl font-bold leading-[145%] tracking-[0.3604166666666667vw] md:ml-[0] md:mt-[0.6321112515802781vh] md:w-[27.799479166666668vw] md:text-xl">
-          <span className="t1 text-blurple">Price: </span>₹250
+          <span className="t1 text-blurple">Price: </span>₹200
         </p>
       </div>
 
@@ -23,7 +23,7 @@ export default function Part2() {
         data-aos="fade-right"
       >
         <a
-          href="https://gravitas.vit.ac.in/events/e748d506-415c-4166-b45f-7485c25406aa"
+          href="https://gravitas.vit.ac.in/events/e3dd00a8-fc7f-433a-9bfa-3d20c3d5bdd0"
           target="_blank"
         >
           <svg

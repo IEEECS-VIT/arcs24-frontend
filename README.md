@@ -1,6 +1,6 @@
 <div align="center">
   <img height="70px" src="https://skillicons.dev/icons?i=react,vite,tailwind" alt="Technology Icons">
-  <h1>ARCS'24</h1>
+  <h1>ARCS'25</h1>
 </div>
 
 ### Technologies Used:
