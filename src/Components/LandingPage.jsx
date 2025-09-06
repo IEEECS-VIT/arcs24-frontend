@@ -17,8 +17,8 @@ function LandingPage() {
         />
       </div>
 
-      <div className="relative z-20 flex flex-col items-center justify-center pt-16 lg:pt-24">
-        <img
+      <div className="relative z-20 flex flex-col items-center justify-center pt-16 lg:pt-36">
+        {/* <img
           src="techknowgreen.svg"
           className="mb-4 mt-10 h-[8vh] w-auto lg:mt-0 lg:h-[10vh] lg:w-auto"
           alt="TechKnowGreen logo"
@@ -27,7 +27,7 @@ function LandingPage() {
           <span className="bg-gradient-to-r from-[#DC55FF] from-25% via-[#D735B3] via-65% to-[#FF001F] to-100% bg-clip-text text-transparent">
             presents
           </span>
-        </h2>
+        </h2> */}
         <h1 className="pointer-events-none select-none font-rugen text-[8vh] text-white lg:text-[16vh]">
           ARCS
         </h1>
@@ -54,7 +54,7 @@ function LandingPage() {
             preserveAspectRatio="xMidYMid meet"
           >
             <a
-              href="https://gravitas.vit.ac.in/events/e748d506-415c-4166-b45f-7485c25406aa"
+              href="https://gravitas.vit.ac.in/events/e3dd00a8-fc7f-433a-9bfa-3d20c3d5bdd0"
               target="_blank"
             >
               <image
@@ -85,7 +85,7 @@ function LandingPage() {
             preserveAspectRatio="xMidYMid meet"
           >
             <a
-              href="https://gravitas.vit.ac.in/events/5387f16e-b092-470a-b918-e89307526ebf"
+              href="https://gravitas.vit.ac.in/events/bd9190cc-5c20-483e-8489-cd2f521d5769"
               target="_blank"
             >
               <image
@@ -114,7 +114,7 @@ function LandingPage() {
       <div className="absolute bottom-9 z-20 w-full rotate-[4deg] border border-dashed border-gray-400 bg-gradient-to-r from-[#01061B] via-100% to-[#073543] sm:rotate-3">
         <div className="overflow-hidden">
           <div className="marquee-container-left whitespace-nowrap font-rugen text-base sm:text-2xl">
-            <div className="marquee-content inline-block">
+            {/* <div className="marquee-content inline-block">
               {Array.from({ length: 1 }).map((_, i) => (
                 <span key={i} className="px-4">
                   TITLE SPONSOR: TECHKNOWGREEN SOLUTIONS | TITLE SPONSOR:
@@ -123,7 +123,7 @@ function LandingPage() {
                   SPONSOR: TECHKNOWGREEN SOLUTIONS |
                 </span>
               ))}
-            </div>
+            </div> */}
             <div className="marquee-content inline-block">
               {Array.from({ length: 1 }).map((_, i) => (
                 <span key={i} className="px-4">
